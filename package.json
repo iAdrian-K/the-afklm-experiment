@@ -1,0 +1,36 @@
+{
+  "name": "the-if-experiment",
+  "version": "0.0.0",
+  "description": "A bot for discord which connects discord and airtable, along with the IF Live API. ",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanketpandia/the-aircraft-experiment.git"
+  },
+  "keywords": [
+    "discord",
+    "airtable",
+    "infinite",
+    "flight"
+  ],
+  "author": "Sanket Pandia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sanketpandia/the-aircraft-experiment/issues"
+  },
+  "homepage": "https://github.com/sanketpandia/the-aircraft-experiment#readme",
+  "dependencies": {
+    "airtable": "^0.10.1",
+    "axios": "^0.21.1",
+    "csvtojson": "^2.0.10",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0"
+  },"engines": {
+    "node": "14.15.4"
+  }
+
+}
