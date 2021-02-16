@@ -178,7 +178,7 @@ exports.compilePilotsData = async function (ifApiKey, message) {
     var ifStats = await ifHelper.getUserStats(ifApiKey, ifcNames);
     for (pilot of compiledData) {
         for (ifcData of ifStats) {
-            if (ifcData['discourseUsername'] === pilot['ifc_id']) {
+            if (ifcData['discourseUsername']!=null && ifcData['discourseUsername'].toUpperCase() === pilot['ifc_id'].toUpperCase()) {
                 pilot['vaAffiliation'] = (ifcData.hasOwnProperty('virtualOrganization')  && ifcData['virtualOrganization']!==undefined  && ifcData['virtualOrganization']!==null) ? ifcData['virtualOrganization'] : 'None'
                 pilot['violations'] = (ifcData.hasOwnProperty('violations') && ifcData['violations']!==undefined) ? ifcData['violations'] : 'Data error'
 
