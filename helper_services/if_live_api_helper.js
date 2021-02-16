@@ -127,11 +127,11 @@ async function getFrequencyType(freqInt){
 exports.getUserStats = async function(ifApiKey, username){
     let configs = await masterConfigs.loadMasterConfigs();
     const user = await axios.post(`${configs["IF_API_URL"]}/user/stats?apikey=${ifApiKey}`, {
-        discourseNames: [username]
+        discourseNames: username
     });
     let response = {};
     let result = user.data['result'];
-    if(result.length > 0) response = result[0];
+    if(result.length > 0) response = result;
     return response;
 }
 

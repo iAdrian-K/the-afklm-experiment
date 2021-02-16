@@ -35,3 +35,12 @@ exports.readGuilds = async function(data){
    console.log(data);
    return data;
 }
+exports.readJson = async function(path){
+    return JSON.parse(fs.readFileSync(path));
+}
+exports.writeJson = async function(path, data){
+    fs.writeFileSync(path, JSON.stringify(data));
+}
+exports.writeCsv = async function(path,data){
+    fs.writeFileSync(path, data);
+}

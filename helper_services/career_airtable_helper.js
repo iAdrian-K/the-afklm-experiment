@@ -13,3 +13,15 @@ exports.fetchCareerModeLogs = async function(airtableConfigs){
     
     return airtableData;
 }
+
+exports.fetchTable = async function(apiKey, baseId, tableName){
+    var base = new Airtable({apiKey: apiKey}).base(baseId)
+    var airtableData;
+    await base(tableName).select().all().then(data => {
+        airtableData = data;
+    }).catch(err => {
+        console.log(err);
+    })
+    
+    return airtableData;
+}

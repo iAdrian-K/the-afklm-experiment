@@ -12,7 +12,8 @@ module.exports = {
             return
         }
         else {
-            let userInfo = await ifHelper.getUserStats(process.env.IF_API_KEY, splitMessage[1].toUpperCase());
+            let stats = await ifHelper.getUserStats(process.env.IF_API_KEY, [splitMessage[1].toUpperCase()]);
+            let userInfo = stats[0];
             console.log(userInfo);
             if(Object.keys(userInfo).length === 0 && userInfo.constructor === Object){
                 console.log('User data not found');
