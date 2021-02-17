@@ -15,12 +15,10 @@ exports.getFlights = async function (ifApiKey, guildConfigs) {
     let configs = await masterConfigs.loadMasterConfigs();
     let sessionId = await getSession(ifApiKey, configs);
     let callsignPattern = guildConfigs['callsign_patterns']['if_callsign'];
-    console.log('.*' + callsignPattern + '.*');
     callsignPattern = ('.*' + callsignPattern + '.*').replace(/x/g, '\\d');
-    console.log(callsignPattern);
     var rxPattern = new RegExp(callsignPattern);
     let vaFlights = await getAllFlights(sessionId['id'], configs['IF_API_URL'], ifApiKey, rxPattern);
-    for (let i = 0; i < vaFlights.length; i++) vaFlights[i]['route'] = await getFlightPlan(configs['IF_API_URL'], ifApiKey, vaFlights[i]['flightId']);
+    //for (let i = 0; i < vaFlights.length; i++) vaFlights[i]['route'] = await getFlightPlan(configs['IF_API_URL'], ifApiKey, vaFlights[i]['flightId']);
     vaFlights = await getAllFlightPlans(configs['IF_API_URL'], ifApiKey, sessionId['id'], vaFlights);
     return vaFlights;
 }
@@ -35,12 +33,11 @@ async function getAllFlights(sessionId, ifApiUrl, ifApiKey, callsignPattern) {
 }
 
 async function getFlightPlan(ifApiUrl, ifApiKey, flightId) {
-    let responseMessage = [];
+    let responseMessage = '';
     await axios.get(`${ifApiUrl}/flight/${flightId}/flightplan?apikey=${ifApiKey}`).then(res => {
-        if (res.data.errorCode !== 0) return responseMessage;
+        if (res.data.errorCode !== 0) return responseMessage;   
         else {
-            responseMessage.push(res.data.result.flightPlanItems[0]['name']);
-            responseMessage.push(res.data.result.flightPlanItems[res.data.result.flightPlanItems.length - 1]['name']);
+            responseMessage = (res.data.result.waypoints[0])+ '-' + (res.data.result.waypoints[res.data.result.waypoints.length - 1]);
         }
     }).catch(err => {});
 
@@ -167,4 +164,28 @@ exports.getUserFlight = async function (ifApiKey, callsign) {
         }
     }
     return aircraft;
+}
+
+exports.getUserCurrentFlight = async function (ifApiKey, callsign) {
+    let configs = await masterConfigs.loadMasterConfigs();
+    let sessionId = await getSession(ifApiKey, configs);
+    var rxPattern = new RegExp(callsign);
+    let aircraft_datastore = await masterConfigs.readAircraftDatastore();
+    let allFlights = await axios.get(`${configs["IF_API_URL"]}/flights/${sessionId['id']}?apikey=${ifApiKey}`);
+    let userFlightObj = {};
+    allFlights.data['result'].forEach(element => {
+        if (rxPattern.test(element['callsign'])) userFlightObj = element;
+    })
+    if(Object.keys(userFlightObj).length === 0 && userFlightObj.constructor === Object)return '';
+    
+    for(let j = 0; j < aircraft_datastore.length; j++){
+        if(aircraft_datastore[j]['AircraftId'] === userFlightObj['aircraftId'] && aircraft_datastore[j]['LiveryId'] === userFlightObj['liveryId']){
+            userFlightObj['aircraft'] = aircraft_datastore[j]['AircraftName'];
+            userFlightObj['livery'] = aircraft_datastore[j]['LiveryName']
+        }
+    }
+    let fpl = await getFlightPlan(configs["IF_API_URL"], ifApiKey, userFlightObj['flightId']);
+    userFlightObj['fpl'] = fpl; 
+
+    return userFlightObj;
 }

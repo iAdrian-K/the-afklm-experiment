@@ -178,11 +178,10 @@ exports.compilePilotsData = async function (ifApiKey, message) {
     var ifStats = await ifHelper.getUserStats(ifApiKey, ifcNames);
     for (pilot of compiledData) {
         for (ifcData of ifStats) {
-            if (ifcData['discourseUsername']!=null && ifcData['discourseUsername'].toUpperCase() === pilot['ifc_id'].toUpperCase()) {
-                pilot['vaAffiliation'] = (ifcData.hasOwnProperty('virtualOrganization')  && ifcData['virtualOrganization']!==undefined  && ifcData['virtualOrganization']!==null) ? ifcData['virtualOrganization'] : 'None'
-                pilot['violations'] = (ifcData.hasOwnProperty('violations') && ifcData['violations']!==undefined) ? ifcData['violations'] : 'Data error'
-
-                pilot['grade'] = (ifcData.hasOwnProperty('grade')  && ifcData['grade']!==undefined) ? ifcData['grade'] : 'Data error'
+            if (ifcData['discourseUsername'] != null && ifcData['discourseUsername'].toUpperCase() === pilot['ifc_id'].toUpperCase()) {
+                pilot['vaAffiliation'] = (ifcData.hasOwnProperty('virtualOrganization') && ifcData['virtualOrganization'] !== undefined && ifcData['virtualOrganization'] !== null) ? ifcData['virtualOrganization'] : 'None'
+                pilot['violations'] = (ifcData.hasOwnProperty('violations') && ifcData['violations'] !== undefined) ? ifcData['violations'] : 'Data error'
+                pilot['grade'] = (ifcData.hasOwnProperty('grade') && ifcData['grade'] !== undefined) ? ifcData['grade'] : 'Data error'
 
             }
         }
@@ -197,4 +196,58 @@ exports.compilePilotsData = async function (ifApiKey, message) {
         return csv
     })
     return
+}
+
+exports.sendFlightModeMessage = async function (message) {
+    var x;
+    x = message.channel.send('This is message 1')
+            .then((msg) => {
+                msg.react('✔️');
+                msg.react('❌');
+    })
+    .catch(console.log)
+
+    Promise.all([x]).then(values => {
+        console.log('Completed this method');
+        return 1
+    })
+    
+}
+exports.sendRouteMeess = async function (message) {
+    var x;
+    message.channel.send('This is message 2')
+            .then((msg) => {
+                msg.react('✔️');
+                msg.react('❌');
+    msg.awaitReactions((reaction, user) => user.id == message.author.id && (reaction.emoji.name == '❌' || reaction.emoji.name == '✔️'),
+        { max: 1, time: 30000 }).then(collected => {
+            if (collected.first().emoji.name === '✔️') {
+                msg.channel.send("Very well. Let's continue")
+                return true
+            }
+            if (collected.first().emoji.name === '❌') {
+                msg.reply('Daaaamn!! Good bye!!');
+                return false;
+            }
+        })
+        .catch((signal) => {
+            if (signal) {
+                msg.reply('No reaction after 30 seconds, operation canceled');
+            }
+        });
+    })
+    .catch(console.log)
+    
+}
+
+exports.validateRoute = async function(pilotRoute){
+    let database = await configsService.readJson('./assets_contents/route_database.json');
+    database = database['routes'];
+    let returnObj = {};
+    for(route of database){
+        if(route['route'] === pilotRoute){
+            return {name: pilotRoute, multiplier: 1, routeId: route['routeId']}
+        }
+    }
+    return returnObj;
 }
