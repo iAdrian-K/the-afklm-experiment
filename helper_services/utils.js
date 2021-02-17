@@ -246,8 +246,38 @@ exports.validateRoute = async function(pilotRoute){
     let returnObj = {};
     for(route of database){
         if(route['route'] === pilotRoute){
-            return {name: pilotRoute, multiplier: 1, routeId: route['routeId']}
+            return {name: pilotRoute + ' Classic', multiplier: 1, routeId: route['routeId']}
         }
     }
     return returnObj;
+}
+
+exports.mapAircraftAirline = async function(aircraft, airline){
+    let aircraftMappings = await configsService.readJson('./assets_contents/if_afklm_mappings.json');
+    let aircrafts = aircraftMappings['AircraftMappings'];
+    let airlines = aircraftMappings['AirlineMappings'];
+    let returnObj = {}
+    if(aircrafts.hasOwnProperty(aircraft)){
+        returnObj['aircraft'] = aircrafts[aircraft]
+    }else{
+        returnObj['aircraft'] = aircrafts['Other']
+    }
+    if(airlines.hasOwnProperty(airline)){
+        returnObj['airline'] = airlines[airline]
+    }else{
+        returnObj['airline'] = airlines['Other']
+    }
+    return returnObj;
+}
+
+exports.validatePilot = async function(callsign){
+    let database = await configsService.readJson('./assets_contents/pilots_database.json');
+    database = database['pilots'];
+    let pilotId = "";
+    for(pilot of database){
+        if(pilot['callsign'].toUpperCase() === callsign){
+            return pilot["pilotId"];
+        }
+    }
+    return pilotId;
 }
