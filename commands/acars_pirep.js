@@ -59,7 +59,7 @@ module.exports = {
         pirepObj['Date Completed'] = today;
 
         //Conversation starts here
-        message.channel.send("***This is being tested. Don't touch this***\n```\nI see you have chosen the easy way. Let's go down this road in that case. May the force be with you!! :cheers: \
+        message.channel.send("```\nI see you have chosen the easy way. Let's go down this road in that case. May the force be with you!! :cheers: \
         \nYou can only file for the route currently in your FPL. No other routes are allowed.\n\n```");
         let validatedRoute = await utils.validateRoute(userFlight['fpl'])
         if (validatedRoute !== {}) guildData['afklm_special']['special_routes'].push(validatedRoute);
