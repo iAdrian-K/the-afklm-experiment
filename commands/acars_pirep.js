@@ -15,6 +15,7 @@ module.exports = {
         let authorId = message.author.id;
         let pirepObj = {};
         let selectedFlightMode, selectedRoute, multiplier;
+        let pilotRemarks = '';
         var reactions = ['1⃣', '2⃣', '3⃣', '4⃣', '5⃣', '6⃣', '7⃣', '8⃣', '9⃣', '🔟'];
         if (!("callsign_patterns" in guildData) || !("discord_callsign" in guildData["callsign_patterns"])) {
             message.channel.send("The callsign patterns of your server seem to be messed up. Contact admin.");
@@ -153,6 +154,8 @@ Route:       **${selectedRoute}**
             const msg = await message.channel.send('Enter your Flight Time in hh:mm format. **Multiplier automatically added**');
             try {
                 const collected = await message.channel.awaitMessages(msg => msg.author.id === actualMsg.author.id, { max: 1, time: 30000 });
+                pilotRemarks +='\nActual FT: ' + collected.first().content + "\nMultiplier: "+ multiplier.toString() +"\nActual Route from FPL: " + userFlight['fpl'];
+                pirepObj['Pilot Remarks'] = pilotRemarks
                 let ft = collected.first().content;
                 let times = ft.split(':');
                 let minutes = parseInt(times[1]) * 60;
