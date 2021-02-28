@@ -7,7 +7,7 @@ const airtable_service = require('../helper_services/career_airtable_helper');
 
 
 module.exports = {
-    name: "invalidated",
+    name: "cm_pirep",
     description: "File an AFKLM Career mode pirep with ACARS data",
     async execute(message) {
         let guildId = message.guild.id;
@@ -32,7 +32,11 @@ module.exports = {
         }
 
         let callsign = await utils.getCallSign(message, guildData["callsign_patterns"]["discord_callsign"], guildData["callsign_patterns"]["callsign_prefix_airtable"]);
-        let callsignId = await utils.validatePilot(callsign)
+        let callsignId = await utils.validateCmPilot(callsign);
+        if(callsignId === ""){
+            message.channel.send("Was unable to find you in the career mode database. Do >update and >magic_time if you are positive that you are a CM pilot or contact Sanket or Emiel.")
+            return;
+        }
         let aircraftProfile = await utils.mapAircraftAirline(userFlight['aircraft'], userFlight['livery'])
         if (callsignId === "") {
             message.channel.send("Your callsign couldn't be validated. RIP!");
@@ -52,11 +56,10 @@ module.exports = {
 
         today = yyyy + '-' + mm + '-' + dd;
         // Initialise and store pirep object here with the automated values
-        console.log(today);
         let callsignArray = []
-        callsignArray.push(callsignId);
+        callsignArray.push("recXgVgJ0EXRCwOT4");
         //Setting IFC id, airline, livery, callsign here
-        pirepObj['Callsign'] = callsignArray;
+        pirepObj['CM Pilot Callsign'] = callsignArray;
         pirepObj["What is your IFC Username?"] = userFlight['username']
         pirepObj['Aircraft'] = aircraftProfile['aircraft'];
         pirepObj['Airline'] = aircraftProfile['airline'];
@@ -158,9 +161,25 @@ PAX: ${pirepObj['Pax']}
 
 
         await getFlightTime();
+        if(!x){
+            message.channel.send("Operation cancelled");
+            return
+        }
         await getFuel();
+        if(!x){
+            message.channel.send("Operation cancelled");
+            return
+        }
         await getPassengers();
+        if(!x){
+            message.channel.send("Operation cancelled");
+            return
+        }
         await getCargo();
+        if(!x){
+            message.channel.send("Operation cancelled");
+            return
+        }
         await choiceComplete();
         console.log(pirepObj);
         if(!x){

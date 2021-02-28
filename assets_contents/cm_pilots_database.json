@@ -1,0 +1,359 @@
+{
+    "pilots": [
+        {
+            "pilotId": "rec0YF7C5CrL4ONZh",
+            "name": "Alpha",
+            "callsign": "AFKLM 230"
+        },
+        {
+            "pilotId": "rec0gpTovPk6tQbm0",
+            "name": "Kévin Rigs",
+            "callsign": "AFKLM123"
+        },
+        {
+            "pilotId": "rec2mXOxPV691T4SU",
+            "name": "Thom",
+            "callsign": "AFKLM131"
+        },
+        {
+            "pilotId": "rec2s59UhcCKlD00l",
+            "name": "Luke Around",
+            "callsign": "AFKLM 201"
+        },
+        {
+            "pilotId": "rec307DNFkekvzHzB",
+            "name": "Radu Demian",
+            "callsign": "AFKLM 176"
+        },
+        {
+            "pilotId": "rec3sScZ75p5Lgvfc",
+            "name": "Thomas ",
+            "callsign": "AFKLM 115"
+        },
+        {
+            "pilotId": "rec3uxBLESKGvpWgI",
+            "name": "Sergio Duran ",
+            "callsign": "AFKLM 164"
+        },
+        {
+            "pilotId": "rec4GkhcRedcZ6kvV",
+            "name": "PDall",
+            "callsign": "AFKLM779"
+        },
+        {
+            "pilotId": "rec4yJpfYPbl8eheb",
+            "name": "Devin Stock",
+            "callsign": "AFKLM022"
+        },
+        {
+            "pilotId": "rec5d6Qzww79IhR0F",
+            "name": "Arya Das",
+            "callsign": "AFKLM666"
+        },
+        {
+            "pilotId": "rec6FU70Uj5qRZ7jZ",
+            "name": "Jeremy",
+            "callsign": "AFKLM015"
+        },
+        {
+            "pilotId": "rec8ijKgK4EVbNRXn",
+            "name": "Farhatsyah Zamri ",
+            "callsign": "AFKLM 677"
+        },
+        {
+            "pilotId": "rec8q1bUKWfHj3xfY",
+            "name": "Louis",
+            "callsign": "AFKLM 108"
+        },
+        {
+            "pilotId": "rec963NR7a1lO2U2l",
+            "name": "DylanIE",
+            "callsign": "AFKLM ???"
+        },
+        {
+            "pilotId": "rec98AyK7vKewPyiy",
+            "name": "Julian (Teddybrooo)",
+            "callsign": "AFKLM 997"
+        },
+        {
+            "pilotId": "recClXUgfx6guSsHE",
+            "name": "Edivan_dcds",
+            "callsign": "AFKLM504"
+        },
+        {
+            "pilotId": "recDhdHgFSfFDZufG",
+            "name": "Dario Greco",
+            "callsign": "AFKLM167"
+        },
+        {
+            "pilotId": "recFjTxv9Q41mjskZ",
+            "name": "Aviation-21 ",
+            "callsign": "AFKLM272"
+        },
+        {
+            "pilotId": "recGapFhDVqXFmDJk",
+            "name": "JeTaW",
+            "callsign": "AFKLM320"
+        },
+        {
+            "pilotId": "recGiEN0s0yElPUXM",
+            "name": "Tyler",
+            "callsign": "AFKLM 253"
+        },
+        {
+            "pilotId": "recHfuVl3Y46AbVnU",
+            "name": "Capt. Fahmy",
+            "callsign": "AFKLM 157"
+        },
+        {
+            "pilotId": "recIFFuErdycltR3J",
+            "name": "Ramzi Khairan",
+            "callsign": "AFKLM008"
+        },
+        {
+            "pilotId": "recJWs4vhqc2BGwKH",
+            "name": "Alexis",
+            "callsign": "AFKLM380"
+        },
+        {
+            "pilotId": "recKJg3BPnKIEyylM",
+            "name": "JulietTango",
+            "callsign": "AFKLM124"
+        },
+        {
+            "pilotId": "recKkR0y3F0bkeE3o",
+            "name": "Krypton",
+            "callsign": "AFKLM 835"
+        },
+        {
+            "pilotId": "recKuLfsgRnpjMTiY",
+            "name": "Phil [COO]",
+            "callsign": "AFKLM002"
+        },
+        {
+            "pilotId": "recLFCBDZEOjVyjrV",
+            "name": "Ben Sam ",
+            "callsign": "AFKLM106"
+        },
+        {
+            "pilotId": "recLIqHJ9AceCP9Si",
+            "name": "YYC5587 (Danny 1987)",
+            "callsign": "AFKLM128"
+        },
+        {
+            "pilotId": "recLvupEdMWjcH5OG",
+            "name": "Manav",
+            "callsign": "AFKLM016"
+        },
+        {
+            "pilotId": "recMit49phuUnI8Nu",
+            "name": "Ben Hienkens",
+            "callsign": "AFKLM 004"
+        },
+        {
+            "pilotId": "recNJ2tFQQqIXLreO",
+            "name": "Unicorn",
+            "callsign": "AFKLM 165"
+        },
+        {
+            "pilotId": "recNKgVGXcfYDjW1k",
+            "name": "John [CEO]",
+            "callsign": "AFKLM001"
+        },
+        {
+            "pilotId": "recPJEARi6gLet2ql",
+            "name": "Lewis_Thomas ",
+            "callsign": "AFKLM120"
+        },
+        {
+            "pilotId": "recPlgprv16PN2eZK",
+            "name": "Matthew",
+            "callsign": "AFKLM006"
+        },
+        {
+            "pilotId": "recT39jyY2SfcW4OU",
+            "name": "Raquis",
+            "callsign": "AFKLM191"
+        },
+        {
+            "pilotId": "recTTaLqU0K1sDVX8",
+            "name": "Deval",
+            "callsign": "AFKLM 217"
+        },
+        {
+            "pilotId": "recTdAkEN3GcvBbHa",
+            "name": "CapCam",
+            "callsign": "AFKLM444"
+        },
+        {
+            "pilotId": "recW16dTH7HoZiqhJ",
+            "name": "Fletcher Joshua A.",
+            "callsign": "AFKLM347"
+        },
+        {
+            "pilotId": "recXgVgJ0EXRCwOT4",
+            "name": "TheExperiment",
+            "callsign": "AFKLM012"
+        },
+        {
+            "pilotId": "recZcRGEM1WCxzdDs",
+            "name": "Emiel [CPO]",
+            "callsign": "AFKLM003"
+        },
+        {
+            "pilotId": "recakQ494O1GLZs92",
+            "name": "Sami F. ",
+            "callsign": "AFKLM207"
+        },
+        {
+            "pilotId": "recbSzW88qvl4O5cE",
+            "name": "Dhruv",
+            "callsign": "AFKLM936"
+        },
+        {
+            "pilotId": "recd5Udv59YtBOvCC",
+            "name": "Jesse",
+            "callsign": "AFKLM140"
+        },
+        {
+            "pilotId": "recd8mysvMovxiVJw",
+            "name": "Nicolás",
+            "callsign": "AFKLM213"
+        },
+        {
+            "pilotId": "recdrUeocTs0AbVkT",
+            "name": "Anthony [AFKLM251]",
+            "callsign": "AFKLM 251"
+        },
+        {
+            "pilotId": "recdxKtq20Ja9KEdN",
+            "name": "Rhendy",
+            "callsign": "AFKLM102"
+        },
+        {
+            "pilotId": "receraZwhCKZ5oeTb",
+            "name": "Miko99x",
+            "callsign": "AFKLM ###"
+        },
+        {
+            "pilotId": "recf21ve8MXhhITKZ",
+            "name": "Lawin",
+            "callsign": "AFKLM009"
+        },
+        {
+            "pilotId": "recf3z5V3L3q578oe",
+            "name": "Joslley ",
+            "callsign": "AFKLM014 "
+        },
+        {
+            "pilotId": "recgSEHK0A29fCJv2",
+            "name": "Luke",
+            "callsign": "AFKLM 333"
+        },
+        {
+            "pilotId": "recgeSXagUcrpqwlZ",
+            "name": "hass.ik",
+            "callsign": "AFKLM181"
+        },
+        {
+            "pilotId": "rechIngMedICobBgc",
+            "name": "Evann Mayers",
+            "callsign": "AFKLM113"
+        },
+        {
+            "pilotId": "recie7dDOsslCZF6a",
+            "name": "Jmacd20",
+            "callsign": "AFKLM 231"
+        },
+        {
+            "pilotId": "recjdo8cMAlTvmgoT",
+            "name": "Alexis_lcp",
+            "callsign": "AFKLM195"
+        },
+        {
+            "pilotId": "recklhSveOU1uI6sM",
+            "name": "Jo_lg_16",
+            "callsign": "AFKLM 169"
+        },
+        {
+            "pilotId": "reclS7itklk8xWq9C",
+            "name": "Menno Roemer",
+            "callsign": "AFKLM194"
+        },
+        {
+            "pilotId": "recmj97EIx7LxK4kH",
+            "name": "Karan [AFKLM209]",
+            "callsign": "AFKLM 209"
+        },
+        {
+            "pilotId": "recmsgPQPlDhLE1bi",
+            "name": "Paulo",
+            "callsign": "AFKLM 189"
+        },
+        {
+            "pilotId": "recnB7dcn81wu8SyD",
+            "name": "Jordan Stevenson",
+            "callsign": "AFKLM 243"
+        },
+        {
+            "pilotId": "recoKjeLlVsIN4oYN",
+            "name": "Arish ",
+            "callsign": "AFKLM101"
+        },
+        {
+            "pilotId": "reconB2oW2Kp0WZNQ",
+            "name": "Bob",
+            "callsign": "AFKLM 239"
+        },
+        {
+            "pilotId": "recqoNijgrsZu59zi",
+            "name": "Joshua Lee",
+            "callsign": "AFKLM 147"
+        },
+        {
+            "pilotId": "recr1GSbiuulvA3hW",
+            "name": "Jamie",
+            "callsign": "AFKLM103"
+        },
+        {
+            "pilotId": "recrGv4Ow6kK3ffnz",
+            "name": "Stefan Wright",
+            "callsign": "AFKLM118"
+        },
+        {
+            "pilotId": "recrIKQDGnAIva9c2",
+            "name": "Saharsh Shu",
+            "callsign": "AFKLM136"
+        },
+        {
+            "pilotId": "recsmetQI8KIAfd0v",
+            "name": "Lucas Quiroz",
+            "callsign": "AFKLM226"
+        },
+        {
+            "pilotId": "rectXuaQZANybUpls",
+            "name": "Beniamino Sommaruga",
+            "callsign": "AFKLM117"
+        },
+        {
+            "pilotId": "recvnyZ6xsPApG5WA",
+            "name": "Philip",
+            "callsign": "AFKLM 003"
+        },
+        {
+            "pilotId": "recvuVGZGTLtGorbX",
+            "name": "John T&G",
+            "callsign": "AFKLM114"
+        },
+        {
+            "pilotId": "recwIodQ9HD9A7Ypu",
+            "name": "Harry He",
+            "callsign": "AFKLM148"
+        },
+        {
+            "pilotId": "reczn1yVKCukxoeJC",
+            "name": "Omar",
+            "callsign": "AFKLM004"
+        }
+    ]
+}

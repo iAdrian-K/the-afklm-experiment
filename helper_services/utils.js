@@ -136,17 +136,15 @@ async function updateAcarsConfigs(configs, allRoutes) {
 }
 
 async function updateCmDatabase(configs) {
-    var pilots = await airtableConnection.fetchTable(configs['airtable_api_key'], "Career Mode Pilots", configs['pilot_table_name'])
+    var pilots = await airtableConnection.fetchTable(configs['airtable_api_key'], configs['pilot_airtable_base_id'], "Career Mode Pilots")
     var pilotsArray = []
     for (pilot of pilots) {
-        console.log(pilot);
-        if (pilot.hasOwnProperty('fields') && pilot['fields'].hasOwnProperty('Name') && pilot['fields'].hasOwnProperty('Callsign') && pilot['fields'].hasOwnProperty('IFC Name')) {
+        if (pilot.hasOwnProperty('fields') && pilot['fields'].hasOwnProperty('Callsign')) {
             try {
                 pilotsArray.push({
                     "pilotId": pilot['id'],
                     "name": pilot['fields']['Name'],
-                    "callsign": pilot['fields']['Callsign'],
-                    "ifc_name": pilot['fields']['IFC Name']
+                    "callsign": pilot['fields']['Callsign']
                 })
             }
             catch (err) {
@@ -154,11 +152,13 @@ async function updateCmDatabase(configs) {
             }
         }
     }
-    await configsService.writeJson('./assets_contents/pilots_database.json', { "pilots": pilotsArray });
+    await configsService.writeJson('./assets_contents/cm_pilots_database.json', { "pilots": pilotsArray });
     return true;
 }
 
 exports.updateDatabase = async function (acars_configs, message, guildConfigs, guildId) {
+    var pilots_cm = await updateCmDatabase(acars_configs);
+    message.channel.send("Done updating the career mode database")
     var routes = await updateRoutes(acars_configs);
     var routes = (await configsService.readJson('./assets_contents/route_database.json'));
     routes = routes['routes']
@@ -303,4 +303,17 @@ exports.validatePilot = async function (callsign) {
         }
     }
     return pilotId;
+}
+
+exports.validateCmPilot = async function(callsign) {
+    let database = await configsService.readJson('./assets_contents/cm_pilots_database.json');
+    database = database['pilots'];
+    let pilotId = "";
+    callsign = callsign.split(" ").join("");
+    for (pilot of database) {
+        if (pilot['callsign'].split(" ").join("").toUpperCase() === callsign.toUpperCase()) {
+            return pilot["pilotId"];
+        }
+    }
+    return pilotId
 }
