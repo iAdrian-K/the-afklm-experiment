@@ -185,13 +185,18 @@ exports.compilePilotsData = async function (ifApiKey, message) {
     pilots = pilots['pilots'];
     var compiledData = [];
     var ifcNames = []
-    message.channel.send(`This will take a while. Looking for ${pilots.length} pilots!! And IF only gives me one at a time :cry:`);
+    message.channel.send(`This will take a while. Looking for ${pilots.length} pilots!!`);
     for (pilot of pilots) {
         ifcNames.push(pilot['ifc_name'])
         compiledData.push({
             callsign: pilot['callsign'],
             name: pilot['name'],
-            ifc_id: pilot['ifc_name']
+            ifc_id: pilot['ifc_name'],
+            vaAffiliation: "-",
+            violations: "-",
+            grade: "-",
+            landings: "-",
+            "vios/landings": "-"
         })
     }
     // ,
@@ -205,7 +210,8 @@ exports.compilePilotsData = async function (ifApiKey, message) {
                 pilot['vaAffiliation'] = (ifcData.hasOwnProperty('virtualOrganization') && ifcData['virtualOrganization'] !== undefined && ifcData['virtualOrganization'] !== null) ? ifcData['virtualOrganization'] : 'None'
                 pilot['violations'] = (ifcData.hasOwnProperty('violations') && ifcData['violations'] !== undefined) ? ifcData['violations'] : 'Data error'
                 pilot['grade'] = (ifcData.hasOwnProperty('grade') && ifcData['grade'] !== undefined) ? ifcData['grade'] : 'Data error'
-
+                pilot['landings'] = (ifcData.hasOwnProperty('landingCount') && ifcData['landingCount'] !== undefined) ? ifcData['landingCount'] : 'Data error'
+                pilot['vios/landings'] = pilot.violations/pilot.landings
             }
         }
     }
@@ -305,7 +311,7 @@ exports.validatePilot = async function (callsign) {
     return pilotId;
 }
 
-exports.validateCmPilot = async function(callsign) {
+exports.validateCmPilot = async function (callsign) {
     let database = await configsService.readJson('./assets_contents/cm_pilots_database.json');
     database = database['pilots'];
     let pilotId = "";

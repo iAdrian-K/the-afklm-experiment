@@ -1,133 +1,137 @@
-callsign,name,ifc_id,vaAffiliation,violations,grade
-AFKLM114,John [T&G Sundays],John_Ryan1,Air France - KLM Virtual Group [AFKLM],421,3
-AFKLM243,Jordan Stevenson,TUBSES,undefined,undefined,undefined
-AFKLM136,Saharsh Shu (Career Mode),Saharsh,Surf Air Virtual [URFVA],11,5
-AFKLM118,Stefan Wright,Massey116_Stefan,Qantas Virtual Group [QVG],28,3
-AFKLM004,Omar [Chief Marketing Officer],Omar_DeWindt,None,148,1
-AFKLM005 ,Willem Gay [FI Europe],AFKLM-Willem,Air France - KLM Virtual Group [AFKLM],6,4
-AFKLM835,Andres,Krypton,IFATC [IFATC],147,3
-AFKLM135,Julian Quian,JulianQ,British Airways Virtual Airline [BAVA],87,3
-AFKLM119,Dorian Tibourcio de la Corre,DorianTib,Air France - KLM Virtual Group [AFKLM],1,3
-AFKLM182,Turab Ali,T2118AB,IFATC [IFATC],11,3
-AFKLM555,Prashava Shah,king_ps09,IFATC [IFATC],17,5
-AFKLM122,Abdullah Zameer,Abdullah_Zameer,undefined,undefined,undefined
-AFKLM179,Jeremai kelie ,IF.CURCAO ,undefined,undefined,undefined
-AFKLM014,Joslley [Flight Instructor | Americas],joslleymiguel_holand,Air France - KLM Virtual Group [AFKLM],15,3
-AFKLM141,Seán Mc Cormack,Sean_McCormack,,110,3
-AFKLM206,Adrien Fischer,Adrien_Fischer,undefined,undefined,undefined
-AFKLM194,Menno Roemer,Menno_Roemer,Air France - KLM Virtual Group [AFKLM],15,4
-AFKLM212,Brady Josephs,BradyJosephs,Air France - KLM Virtual Group [AFKLM],108,3
-AFKLM205,Hugo Ricard,frenchpilot0709,Air France - KLM Virtual Group [AFKLM],264,3
-AFKLM103,Jamie,Jamie_pharoah,IFATC [IFATC],57,4
-AFKLM213,Nicolás Dejoy ,Nicolas_Dejoy,Air France - KLM Virtual Group,46,3
-AFKLM326,iJazzyman,iJazzyman,Infinite Flight Aviation Experts [IFAE],47,3
-AFKLM112,Alexis ,ATK,Air France - KLM Virtual Group [AFKLM],69,3
-AFKLM195,Patrick Sionkowski,PATOU95,Air France - KLM Virtual Group [AFKLM],74,3
-AFKLM115,Ricardo Ricky,RicardoRickyTheodore,undefined,undefined,undefined
-AFKLM106,Ben Sam,GLITCH_GAMES,Qatar Airways Virtual [QRV],50,2
-AFKLM292,Beljany Aquino,Beljany,Air France - KLM Virtual Group [AFKLM],30,3
-AFKLM143,Connor Kelly,CPT_Colorado,IFATC [IFATC],52,4
-AFKLM197,Liam Kirk,Liam_Kirk,Infinite Flight Aviation Experts [IFAE],163,5
-AFKLM181,Hassan Ismail,hass.ik,Air France - KLM Virtual Group [AFKLM],38,3
-AFKLM147,Vino Alviano,vinoalviano,Infinite Flight Aviation Experts [IFAE],31,4
-AFKLM170,Raoul della Chiesa,CaptRaoul159,undefined,undefined,undefined
-AFKLM253,Tyler Shah,TylerShah,undefined,undefined,undefined
-AFKLM180,Rohan Mehrotra,Rohan_Mehrotra,International Professional Pilots [IPP],30,5
-AFKLM183,Artem Frolov,Artem_F,IFATC [IFATC],31,3
-AFKLM244,Rian O’Shea,Rian_OShea,,92,4
-AFKLM666,ARI,AryaTheLivingMeme,Air France - KLM Virtual Group [AFKLM],261,4
-AFKLM817,Mwe2187,Mwe2187,American Virtual [AAVA],45,3
-AFKLM012,Sanket Pandia (The Experiment) [Events Manager],sanketpandia,Air France - KLM Virtual Group [AFKLM],46,4
-AFKLM350,Aashish,Aashish_Mohammed,None,91,4
-AFKLM166,JamalGh,RoyalJordanian,IFATC [IFATC],11,3
-AFKLM250,Pablo Carnevali Goldenberg ,Pablo_CG,Infinite Flight Aero Brasil [IFAB],60,4
-AFKLM272,Aviation21,aviation21,undefined,undefined,undefined
-AFKLM316,Charles B,bc3010,undefined,undefined,undefined
-AFKLM111,Aitor Company,IF-Mallorca,Air France - KLM Virtual Group [AFKLM],23,4
-AFKLM144,Andrew Mitsuyoshi,yoshi_flyer,Air France - KLM Virtual Group [AFKLM],23,4
-AFKLM347,Fletcher Joshua,josh_aviation,None,47,4
-AFKLM101,Arish Mehta,Arish_Mehta,Air France - KLM Virtual Group [AFKLM],29,4
-AFKLM504,Edivan_dcds ,edivan_dcds,IFATC [IFATC],38,3
-AFKLM176,Maydden,mayd12,Air France - KLM Virtual Group [AFKLM],75,3
-AFKLM779,Papai Dall,IF-Pdall,undefined,undefined,undefined
-AFKLM171,Jarrett Schiedemeyer ,JarrettFlies,Air China Virtual [CAVA],73,5
-AFKLM209,Karan Chonkaria,Karan747,None,26,3
-AFKLM196,Maxime Jarjoura,Maxime_Jarjoura,Air France - KLM Virtual Group [AFKLM],96,3
-AFKLM201,Luke Around,Luke_Around,Air France - KLM Virtual Group [AFKLM],47,3
-AFKLM104,Manav,Manav_suri,IFATC [IFATC],18,3
-AFKLM500,Marc Stinger,Marc.stinger,None,23,3
-AFKLM313,Louie,Louie,Air France - KLM Virtual Group [AFKLM],325,4
-AFKLM125,Robert van der stoep ,Captainklm ,undefined,undefined,undefined
-AFKLM010,Eddie [Digital Marketing Manager],Edoardo_C,IFATC [IFATC],50,5
-AFKLM226,Lucas Quiroz,Lucas_Nicolas,IFATC [IFATC],103,3
-AFKLM002,Phil Hallescheck [Chief Operations Officer],Phil1988,Air France - KLM Virtual Group [AFKLM],26,4
-AFKLM006 ,Matthew [Flight Instructor Europe],Matthewswift,Air France - KLM Virtual Group [AFKLM],687,4
-AFKLM146,Agenor Roupie Safronova,Agenor_ROUPIE_SAFRON,Air France - KLM Virtual Group [AFKLM],20,3
-AFKLM008,Ramzi Khairan [FI Asia],Ramzi_Khairan,Infinite Flight Aviation Experts [IFAE],655,5
-AFKLM107,PattR,PattR,Air France - KLM Virtual Group [AFKLM],109,3
-AFKLM157,Jason Parker,Jason102 ,undefined,undefined,undefined
-AFKLM277,Wellmo,Laurent_Wellman,undefined,undefined,undefined
-AFKLM787,Przemek Gancarz,PrzemekGancarz,Qatar Airways Virtual [QRV],51,4
-AFKLM009,Lawin Goran Nadir Salih [HR manager],Lawin_S,British Airways Virtual Airline [BAVA],74,5
-AFKLM015,Jeremy [Route Manager],jeremy351,Air France - KLM Virtual Group [AFKLM],97,5
-AFKLM001,John [Chief Executive Officer / President],john370,Air France - KLM Virtual Group [AFKLM],391,4
-AFKLM133,Quenan Affin,OiseauPlume,undefined,undefined,undefined
-AFKLM152,Matthieu Dangeville,Matt_D1,undefined,undefined,undefined
-AFKLM211,Seohyun Hwang,SpaceyBoot33825,undefined,undefined,undefined
-AFKLM145,Tre Dior,Tre_Dior,United Virtual Airlines [UVAL],239,3
-AFKLM223,Gabriel Shepherd,Oskapew,IFATC [IFATC],55,4
-AFKLM936,Dhruv Chopra [AC | Far East],DhruvChopra,,101,4
-AFKLM191,Justin Caramancion,Raquis,International Professional Pilots [IPP],12,4
-AFKLM128,Daniel Boldison,YYC5587,Air France - KLM Virtual Group [AFKLM],32,3
-AFKLM150,Christophe Barbe,ItsinziAir,Air France - KLM Virtual Group [AFKLM],14,3
-AFKLM140,Jesse Kuijpers,jesse0409,Air France - KLM Virtual Group [AFKLM],26,4
-AFKLM167,Dario Greco,Captain_Dario,British Airways Virtual Airline [BAVA],85,4
-AFKLM156,Michael Black,Michael_black1,undefined,undefined,undefined
-AFKLM169,Andre Sengkey,Andre777,undefined,undefined,undefined
-AFKLM164,Sergio Duran,ViperB727 ,undefined,undefined,undefined
-AFKLM319,Neto Campelo,campeloneto,undefined,undefined,undefined
-AFKLM139,NLMaxis ,NL-Maxis,undefined,undefined,undefined
-AFKLM110,Cameron Renwick,camr,None,114,1
-AFKLM210,Luca Caviness,lucaviness,Azerbaijan Virtual [AZAL],20,5
-AFKLM127,AviatorsHubYT,aviatorshubyt,Air France - KLM Virtual Group [AFKLM],21,5
-AFKLM320,JeTaW ,Jetaw,Air France - KLM Virtual Group [AFKLM],13,4
-AFKLM117,Beniamino Sommaruga,beniamino,Infinite Flight Aviation Experts [IFAE],66,4
-AFKLM148,Harry He,HarryH1,Malaysia Airlines Virtual [MHVA],19,5
-AFKLM380,Alexis B.,Alexis.B,Air France - KLM Virtual Group [AFKLM],24,3
-AFKLM153,Noel Demko (nowhereman),ProSecretPilot,undefined,undefined,undefined
-AFKLM126,Mason Pieri,MJP _27,undefined,undefined,undefined
-AFKLM204,Samuel HUCHET,saam,Air France - KLM Virtual Group [AFKLM],2,3
-AFKLM003,Emiel [Chief Pilot Officer / Events & Career Mode Manager] ,Emiel_l,Air France - KLM Virtual Group [AFKLM],37,3
-AFKLM121,Marc G,PattR,Air France - KLM Virtual Group [AFKLM],109,3
-AFKLM407,Ali Mujeeb,ali_mujeeb,undefined,undefined,undefined
-AFKLM102,Rhendy AvGeek,RhendyAvGeek,Air France - KLM Virtual Group [AFKLM],32,3
-AFKLM131,Thom Langeveld,Thom Langeveld,undefined,undefined,undefined
-AFKLM149,Danny Ly,DannyHL ,undefined,undefined,undefined
-AFKLM172,Marijn de Bie,Marijn,Air France - KLM Virtual Group [AFKLM],3,4
-AFKLM138,Adibya Putra Aryandi,IFPI-IPP-IFFR-Glacce,undefined,undefined,undefined
-AFKLM105,Siebe Reis Miranda,Sieberovia,Air France - KLM Virtual Group [AFKLM],19,5
-AFKLM022,Devin Stock [Flight Instructor Americas],devin_stock,IFATC [IFATC],21,4
-AFKLM161,Samir Yankey,iamBISMARCK,None,9,3
-AFKLM109,Otto,Otto_Geissler,Air France - KLM Virtual Group [AFKLM],61,2
-AFKLM888,Alexis lcp [AC | France],Alexis_lcp,Air France - KLM Virtual Group [AFKLM],76,1
-AFKLM142,Almi Ramadhan,Almiost,American Virtual [AAVA],140,3
-AFKLM192,Darren Kong (Cheetah Gaming),Cheetahgaming_YT,Air France - KLM Virtual Group [AFKLM],61,3
-AFKLM151,Dimitri Blonz,DimitriB,IFATC [IFATC],23,5
-AFKLM158,Ruan Maass,Average_Gamer,Air France - KLM Virtual Group [AFKLM],40,4
-AFKLM155,Mark Gregor Jaaska,mark.gregor.jaaska,None,2,3
-AFKLM217,Deval Surana,Deval_Surana,Jet Airways Virtual [JAIVA],33,3
-AFKLM207,Sami feteiha,Sami Fajita Air,undefined,undefined,undefined
-AFKLM137,Jeff Meijer,Jeffrey_Meijer,Qantas Virtual Group [QVG],17,3
-AFKLM130,Louis Labrosse,Louis1,British Airways Virtual Airline [BAVA],150,5
-AFKLM444,CapCam,CapCam,undefined,undefined,undefined
-AFKLM113,Evan Mayers,Zephyr,IFATC [IFATC],33,3
-AFKLM129,Antonio Longás,Anlodeje,Air France - KLM Virtual Group [AFKLM],7,3
-AFKLM190,Liam McDonell (IFLeinster),If.leinster,undefined,undefined,undefined
-AFKLM116,Gabriel Gava,Gabriel_Gava,Air France - KLM Virtual Group [AFKLM],50,3
-AFKLM132,Arseny Kryuchkov,arseny4kryuchkov4@gmail.com,undefined,undefined,undefined
-AFKLM358,Peter,Pete11,None,16,3
-AFKLM231,Jmacd20,Jmacd20,American Virtual [AAVA],79,4
-AFKLM124,JulietTango ,JulietTango,British Airways Virtual Airline [BAVA],20,5
-AFKLM120,Lewis Thomas,Lewis_Thomas,Air France - KLM Virtual Group [AFKLM],31,3
-AFKLM208,Stefan Haesen,PilotStefan,undefined,undefined,undefined
-AFKLM160,Samuel Reveille,Samy-AFKLM160,undefined,undefined,undefined
+callsign,name,ifc_id,vaAffiliation,violations,grade,landings,vios/landings
+AFKLM114,John [T&G Sundays],John_Ryan1,-,-,-,-,-
+AFKLM243,Jordan Stevenson,TUBSES,-,-,-,-,-
+AFKLM136,Saharsh Shu (Career Mode),Saharsh,Delta Virtual Air Lines [DLVA],11,5,1071,0.01027077497665733
+AFKLM118,Stefan Wright,Massey116_Stefan,Air France - KLM Virtual Group [AFKLM],30,3,442,0.06787330316742081
+AFKLM004,Omar [Chief Marketing Officer],Omar_DeWindt,None,148,1,856,0.17289719626168223
+AFKLM005 ,Willem Gay [FI Europe],AFKLM-Willem,Air France - KLM Virtual Group [AFKLM],6,4,681,0.00881057268722467
+AFKLM835,Andres,Krypton,Air Canada Virtual [ACVA],147,3,669,0.21973094170403587
+AFKLM135,Julian Quian,JulianQ,British Airways Virtual Airline [BAVA],93,2,333,0.27927927927927926
+AFKLM119,Dorian Tibourcio de la Corre,DorianTib,Air France - KLM Virtual Group [AFKLM],1,3,282,0.0035460992907801418
+AFKLM182,Turab Ali,T2118AB,IFATC [IFATC],11,3,705,0.015602836879432624
+AFKLM555,Prashava Shah,king_ps09,IFATC [IFATC],17,4,1484,0.011455525606469003
+AFKLM122,Abdullah Zameer,Abdullah_Zameer,-,-,-,-,-
+AFKLM014,Joslley [Flight Instructor | Americas],joslleymiguel_holand,Air France - KLM Virtual Group [AFKLM],15,3,1894,0.00791974656810982
+AFKLM141,Seán Mc Cormack,Sean_McCormack,,110,3,442,0.248868778280543
+AFKLM206,Adrien Fischer,Adrien_Fischer,-,-,-,-,-
+AFKLM194,Menno Roemer,Menno_Roemer,Air France - KLM Virtual Group [AFKLM],15,4,817,0.01835985312117503
+AFKLM212,Brady Josephs,BradyJosephs,Air France - KLM Virtual Group [AFKLM],108,3,455,0.23736263736263735
+AFKLM205,Hugo Ricard,frenchpilot0709,Air France - KLM Virtual Group [AFKLM],264,3,380,0.6947368421052632
+AFKLM103,Jamie,Jamie_pharoah,IFATC [IFATC],57,4,928,0.061422413793103446
+AFKLM213,Nicolás Dejoy ,Nicolas_Dejoy,Air France - KLM Virtual Group,46,3,270,0.17037037037037037
+AFKLM326,iJazzyman,iJazzyman,Infinite Flight Aviation Experts [IFAE],47,3,1147,0.04097646033129904
+AFKLM112,Alexis ,ATK,Air France - KLM Virtual Group [AFKLM],69,5,1232,0.056006493506493504
+AFKLM195,Patrick Sionkowski,PATOU95,Air France - KLM Virtual Group [AFKLM],74,4,525,0.14095238095238094
+AFKLM115,Ricardo Ricky,Syncline,German Infinite Flight Alliance [IFGER],86,3,2030,0.042364532019704436
+AFKLM106,Ben Sam,GLITCH_GAMES,Qatar Airways Virtual [QRV],50,2,444,0.11261261261261261
+AFKLM292,Beljany Aquino,Beljany,Air France - KLM Virtual Group [AFKLM],30,3,748,0.040106951871657755
+AFKLM162,Zachary Dior,Skippy,American Virtual [AAVA],13,3,321,0.040498442367601244
+AFKLM143,Connor Kelly,CPT_Colorado,IFATC [IFATC],52,4,819,0.06349206349206349
+AFKLM197,Liam Kirk,Liam_Kirk,IFATC [IFATC],163,5,2311,0.07053223712678494
+AFKLM181,Hassan Ismail,hass.ik,Air France - KLM Virtual Group [AFKLM],40,3,261,0.1532567049808429
+AFKLM147,Vino Alviano,vinoalviano,Lion Group Virtual Airlines [LGVA],31,4,1664,0.018629807692307692
+AFKLM170,Raoul della Chiesa,CaptRaoul159,-,-,-,-,-
+AFKLM253,Tyler Shah,TylerShah,-,-,-,-,-
+AFKLM180,Rohan Mehrotra,Rohan_Mehrotra,International Professional Pilots [IPP],30,5,980,0.030612244897959183
+AFKLM183,Artem Frolov,Artem_F,IFATC [IFATC],31,3,515,0.06019417475728155
+AFKLM244,Rian O’Shea,Rian_OShea,Air France - KLM Virtual Group [AFKLM],92,4,520,0.17692307692307693
+AFKLM666,ARI,AryaTheLivingMeme,NonStop Virtual [NSV],264,3,1109,0.23805229936880073
+AFKLM817,Mwe2187,Mwe2187,Delta Virtual Air Lines [DLVA],45,3,2446,0.01839738348323794
+AFKLM012,Sanket Pandia (The Experiment) [Events Manager],sanketpandia,Air France - KLM Virtual Group [AFKLM],47,4,638,0.07366771159874608
+AFKLM350,Aashish,Aashish_Mohammed,None,92,4,2277,0.04040404040404041
+AFKLM166,JamalGh,RoyalJordanian,IFATC [IFATC],11,3,1797,0.006121313299944352
+AFKLM250,Pablo Carnevali Goldenberg ,Pablo_CG,Air France - KLM Virtual Group [AFKLM],60,4,680,0.08823529411764706
+AFKLM789,Alfie Bowen,IF_LOVER1,-,-,-,-,-
+AFKLM272,Aviation21,aviation21,-,-,-,-,-
+AFKLM316,Charles B,bc3010,-,-,-,-,-
+AFKLM111,Aitor Company,IF-Mallorca,Air France - KLM Virtual Group [AFKLM],23,4,632,0.03639240506329114
+AFKLM144,Andrew Mitsuyoshi,yoshi_flyer,British Airways Virtual Airline [BAVA],23,4,1031,0.02230843840931135
+AFKLM347,Fletcher Joshua,josh_aviation,None,48,3,929,0.05166846071044134
+AFKLM159,Marchuzzie Zagado,Marquatzi,Virgin Virtual Group [VGVA],33,3,154,0.21428571428571427
+AFKLM101,Arish Mehta,Arish_Mehta,Air France - KLM Virtual Group [AFKLM],29,4,1077,0.02692664809656453
+AFKLM504,Edivan_dcds ,edivan_dcds,IFATC [IFATC],38,3,2219,0.017124831004957188
+AFKLM176,Maydden,mayd12,Air France - KLM Virtual Group [AFKLM],76,3,151,0.5033112582781457
+AFKLM779,Papai Dall,IF-Pdall,-,-,-,-,-
+AFKLM171,Jarrett Schiedemeyer ,JarrettFlies,Air China Virtual [CAVA],73,5,1223,0.059689288634505316
+AFKLM209,Karan Chonkaria,Karan747,None,26,3,313,0.08306709265175719
+AFKLM196,Maxime Jarjoura,Maxime_Jarjoura,Air France - KLM Virtual Group [AFKLM],96,3,569,0.1687170474516696
+AFKLM201,Luke Around,Luke_Around,Air France - KLM Virtual Group [AFKLM],47,2,932,0.05042918454935622
+AFKLM104,Manav,Manav_suri,IFATC [IFATC],18,3,1625,0.011076923076923076
+AFKLM500,Marc Stinger,Marc.stinger,None,23,3,1150,0.02
+AFKLM313,Louie,Louie,Air France - KLM Virtual Group [AFKLM],325,4,1781,0.18248175182481752
+AFKLM125,Robert van der stoep ,Captainklm ,-,-,-,-,-
+AFKLM010,Eddie [Digital Marketing Manager],Edoardo_C,IFATC [IFATC],51,5,1384,0.03684971098265896
+AFKLM226,Lucas Quiroz,Lucas_Nicolas,IFATC [IFATC],103,3,737,0.13975576662143827
+AFKLM002,Phil Hallescheck [Chief Operations Officer],Phil1988,Air France - KLM Virtual Group [AFKLM],29,3,1175,0.02468085106382979
+AFKLM006 ,Matthew [Flight Instructor Europe],Matthewswift,Air France - KLM Virtual Group [AFKLM],687,4,2269,0.3027765535478184
+AFKLM146,Agenor Roupie Safronova,Agenor_ROUPIE_SAFRON,Air France - KLM Virtual Group [AFKLM],20,3,188,0.10638297872340426
+AFKLM800,Baptiste Desmet,IFFR_Captain_Baba,-,-,-,-,-
+AFKLM008,Ramzi Khairan [FI Asia],Ramzi_Khairan,Infinite Flight Aviation Experts [IFAE],655,5,2047,0.31998045920859797
+AFKLM107,PattR,PattR,Air France - KLM Virtual Group [AFKLM],109,3,1296,0.08410493827160494
+AFKLM157,Jason Parker,Jason102 ,-,-,-,-,-
+AFKLM163,Marwan IFS,IFS,Virgin Virtual Group [VGVA],11,3,120,0.09166666666666666
+AFKLM277,Wellmo,Laurent_Wellman,American Virtual [AAVA],47,3,287,0.16376306620209058
+AFKLM787,Przemek Gancarz,PrzemekGancarz,Dubai Virtual Airlines [DVA],51,3,1110,0.04594594594594595
+AFKLM009,Lawin Goran Nadir Salih [HR manager],Lawin_S,Air France - KLM Virtual Group [AFKLM],74,5,1447,0.05114029025570145
+AFKLM015,Jeremy [Route Manager],jeremy351,Air France - KLM Virtual Group [AFKLM],97,4,2163,0.044845122515025426
+AFKLM001,John [Chief Executive Officer / President],john370,Air France - KLM Virtual Group [AFKLM],391,4,3127,0.12503997441637352
+AFKLM133,Quenan Affin,OiseauPlume,-,-,-,-,-
+AFKLM152,Matthieu Dangeville,Matt_D1,-,-,-,-,-
+AFKLM211,Seohyun Hwang,SpaceyBoot33825,-,-,-,-,-
+AFKLM145,Tre Dior,Tre_Dior,Air France - KLM Virtual Group [AFKLM],244,3,549,0.4444444444444444
+AFKLM223,Gabriel Shepherd,Oskapew,IFATC [IFATC],55,4,1756,0.03132118451025057
+AFKLM936,Dhruv Chopra [AC | Far East],DhruvChopra,,101,4,1038,0.09730250481695568
+AFKLM191,Justin Caramancion,Raquis,International Professional Pilots [IPP],14,5,1920,0.007291666666666667
+AFKLM128,Daniel Boldison,YYC5587,Air France - KLM Virtual Group [AFKLM],32,3,612,0.05228758169934641
+AFKLM150,Christophe Barbe,ItsinziAir,Air France - KLM Virtual Group [AFKLM],14,3,352,0.03977272727272727
+AFKLM140,Jesse Kuijpers,jesse0409,Air France - KLM Virtual Group [AFKLM],26,4,605,0.04297520661157025
+AFKLM167,Dario Greco,Captain_Dario,Qatar Airways Virtual [QRV],85,4,776,0.1095360824742268
+AFKLM156,Michael Black,Michael_black1,-,-,-,-,-
+AFKLM169,Andre Sengkey,Andre777,-,-,-,-,-
+AFKLM164,Sergio Duran,ViperB727 ,-,-,-,-,-
+AFKLM319,Neto Campelo,campeloneto,-,-,-,-,-
+AFKLM139,NLMaxis ,NL-Maxis,-,-,-,-,-
+AFKLM110,Cameron Renwick,camr,None,114,1,1269,0.08983451536643026
+AFKLM210,Luca Caviness,lucaviness,Azerbaijan Virtual [AZAL],20,5,1841,0.010863661053775122
+AFKLM127,AviatorsHubYT,aviatorshubyt,Air France - KLM Virtual Group [AFKLM],21,5,856,0.02453271028037383
+AFKLM320,JeTaW ,Jetaw,Air France - KLM Virtual Group [AFKLM],13,4,798,0.016290726817042606
+AFKLM117,Beniamino Sommaruga,beniamino,Infinite Flight Aviation Experts [IFAE],66,4,1938,0.034055727554179564
+AFKLM148,Harry He,HarryH1,FedEx Express Virtual [FDXV],19,5,3935,0.0048284625158831005
+AFKLM380,Alexis B.,Alexis.B,Air France - KLM Virtual Group [AFKLM],27,3,1520,0.017763157894736842
+AFKLM153,Noel Demko (nowhereman),ProSecretPilot,-,-,-,-,-
+AFKLM126,Mason Pieri,MJP_27,IFATC [IFATC],5,5,1304,0.003834355828220859
+AFKLM204,Samuel HUCHET,saam,Air France - KLM Virtual Group [AFKLM],2,3,277,0.007220216606498195
+AFKLM003,Emiel [Chief Pilot Officer / Events & Career Mode Manager] ,Emiel_l,Air France - KLM Virtual Group [AFKLM],37,3,1228,0.03013029315960912
+AFKLM121,Marc G,PattR,Air France - KLM Virtual Group [AFKLM],109,3,1296,0.08410493827160494
+AFKLM407,Ali Mujeeb,ali_mujeeb,British Airways Virtual Airline [BAVA],15,3,841,0.0178359096313912
+AFKLM102,Rhendy AvGeek,RhendyAvGeek,Air France - KLM Virtual Group [AFKLM],33,3,666,0.04954954954954955
+AFKLM131,Thom Langeveld,Thom Langeveld,-,-,-,-,-
+AFKLM149,Danny Ly,DannyHL ,-,-,-,-,-
+AFKLM172,Marijn de Bie,Marijn,Air France - KLM Virtual Group [AFKLM],3,3,421,0.007125890736342043
+AFKLM138,Adibya Putra Aryandi,IFPI-IPP-IFFR-Glacce,-,-,-,-,-
+AFKLM105,Siebe Reis Miranda,Sieberovia,Air France - KLM Virtual Group [AFKLM],19,5,894,0.021252796420581657
+AFKLM022,Devin Stock [Flight Instructor Americas],devin_stock,IFATC [IFATC],21,5,1356,0.015486725663716814
+AFKLM109,Otto,Otto_Geissler,Air France - KLM Virtual Group [AFKLM],61,3,304,0.20065789473684212
+AFKLM888,Alexis lcp [AC | France],Alexis_lcp,Air France - KLM Virtual Group [AFKLM],76,1,625,0.1216
+AFKLM142,Almi Ramadhan,Almiost,American Virtual [AAVA],140,4,499,0.280561122244489
+AFKLM192,Darren Kong (Cheetah Gaming),Cheetahgaming_YT,El Al Virtual [LYVA],61,3,334,0.18263473053892215
+AFKLM151,Dimitri Blonz,DimitriB,IFATC [IFATC],23,5,1191,0.019311502938706968
+AFKLM158,Ruan Maass,Average_Gamer,IFATC [IFATC],40,4,649,0.061633281972265024
+AFKLM155,Mark Gregor Jaaska,mark.gregor.jaaska,None,2,3,305,0.006557377049180328
+AFKLM217,Deval Surana,Deval_Surana,Jet Airways Virtual [JAIVA],33,3,685,0.04817518248175182
+AFKLM207,Sami feteiha,Sami Fajita Air,-,-,-,-,-
+AFKLM137,Jeff Meijer,Jeffrey_Meijer,Qantas Virtual Group [QVG],18,3,353,0.05099150141643059
+AFKLM130,Louis Labrosse,Louis1,British Airways Virtual Airline [BAVA],151,3,1173,0.1287297527706735
+AFKLM444,CapCam,CapCam,-,-,-,-,-
+AFKLM168,Ethan Sant,esant_15,,67,3,842,0.07957244655581948
+AFKLM113,Evan Mayers,Zephyr,IFATC [IFATC],33,3,276,0.11956521739130435
+AFKLM129,Antonio Longás,Anlodeje,Air France - KLM Virtual Group [AFKLM],7,3,168,0.041666666666666664
+AFKLM190,Liam McDonell (IFLeinster),If.leinster,-,-,-,-,-
+AFKLM116,Gabriel Gava,Gabriel_Gava,Air France - KLM Virtual Group [AFKLM],50,4,669,0.07473841554559044
+AFKLM132,Arseny Kryuchkov,arseny4kryuchkov4@gmail.com,-,-,-,-,-
+AFKLM358,Peter,Pete11,None,16,3,357,0.04481792717086835
+AFKLM231,Jmacd20,Jmacd20,American Virtual [AAVA],79,4,1098,0.07194899817850638
+AFKLM124,JulietTango ,JulietTango,Delta Virtual Air Lines [DLVA],20,5,1301,0.015372790161414296
+AFKLM120,Lewis Thomas,Lewis_Thomas,Air France - KLM Virtual Group [AFKLM],33,3,205,0.16097560975609757
+AFKLM208,Stefan Haesen,PilotStefan,-,-,-,-,-
+AFKLM160,Samuel Reveille,Samy-AFKLM160,-,-,-,-,-
