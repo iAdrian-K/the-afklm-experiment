@@ -7,7 +7,7 @@ const airtable_service = require('../helper_services/career_airtable_helper');
 
 
 module.exports = {
-    name: "cm_pirep",
+    name: "invalidated",
     description: "File an AFKLM Career mode pirep with ACARS data",
     async execute(message) {
         let guildId = message.guild.id;
@@ -62,6 +62,7 @@ module.exports = {
         pirepObj['Airline'] = aircraftProfile['airline'];
         pirepObj['Date Completed'] = today;
 
+        let x = true;
 
         const getFlightTime = async () => {
             let actualMsg = message;
@@ -75,6 +76,7 @@ module.exports = {
                 pirepObj['Flight Time'] = totalTime;
 
             } catch (collected) {
+                x = false;
                 actualMsg.channel.send('Oops!!Either your time ran out or something went wrong.');
             }
         };
@@ -90,6 +92,7 @@ module.exports = {
                 const collected = await message.channel.awaitMessages(msg => msg.author.id === actualMessage.author.id, { max: 1, time: 30000 });
                 pirepObj['Fuel (Kg)'] = parseInt(collected.first().content);
             } catch (collected) {
+                x= false;
                 actualMessage.channel.send("Sorry your request could not be completed. Either you timed out or something went wrong. Try again. There is a 30 sec wait time for each response.");
             }
 
@@ -103,6 +106,7 @@ module.exports = {
                 const collected = await message.channel.awaitMessages(msg => msg.author.id === actualMessage.author.id, { max: 1, time: 30000 });
                 pirepObj['Cargo (Kg)'] = parseInt(collected.first().content);
             } catch (collected) {
+                x = false;
                 actualMessage.channel.send("Sorry your request could not be completed. Either you timed out or something went wrong. Try again. There is a 30 sec wait time within which you have to respond.");
             }
         }
@@ -114,11 +118,11 @@ module.exports = {
                 const collected = await message.channel.awaitMessages(msg => msg.author.id === actualMessage.author.id, { max: 1, time: 30000 });
                 pirepObj['Pax'] = parseInt(collected.first().content);
             } catch (collected) {
+                x = false;
                 message.channel.send("Sorry your request could not be processed. Either you timed out or something went wrong. Try again. There is a 30 second time that you get for each response");
             }
         }
 
-        let x = true;
 
         const choiceComplete = async () => {
             const msg = await message.channel.send(`Here is your log:

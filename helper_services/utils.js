@@ -135,6 +135,29 @@ async function updateAcarsConfigs(configs, allRoutes) {
     return specialRoutes;
 }
 
+async function updateCmDatabase(configs) {
+    var pilots = await airtableConnection.fetchTable(configs['airtable_api_key'], "Career Mode Pilots", configs['pilot_table_name'])
+    var pilotsArray = []
+    for (pilot of pilots) {
+        console.log(pilot);
+        if (pilot.hasOwnProperty('fields') && pilot['fields'].hasOwnProperty('Name') && pilot['fields'].hasOwnProperty('Callsign') && pilot['fields'].hasOwnProperty('IFC Name')) {
+            try {
+                pilotsArray.push({
+                    "pilotId": pilot['id'],
+                    "name": pilot['fields']['Name'],
+                    "callsign": pilot['fields']['Callsign'],
+                    "ifc_name": pilot['fields']['IFC Name']
+                })
+            }
+            catch (err) {
+                console.log(pilot['fields']);
+            }
+        }
+    }
+    await configsService.writeJson('./assets_contents/pilots_database.json', { "pilots": pilotsArray });
+    return true;
+}
+
 exports.updateDatabase = async function (acars_configs, message, guildConfigs, guildId) {
     var routes = await updateRoutes(acars_configs);
     var routes = (await configsService.readJson('./assets_contents/route_database.json'));
@@ -201,81 +224,81 @@ exports.compilePilotsData = async function (ifApiKey, message) {
 exports.sendFlightModeMessage = async function (message) {
     var x;
     x = message.channel.send('This is message 1')
-            .then((msg) => {
-                msg.react('✔️');
-                msg.react('❌');
-    })
-    .catch(console.log)
+        .then((msg) => {
+            msg.react('✔️');
+            msg.react('❌');
+        })
+        .catch(console.log)
 
     Promise.all([x]).then(values => {
         console.log('Completed this method');
         return 1
     })
-    
+
 }
 exports.sendRouteMeess = async function (message) {
     var x;
     message.channel.send('This is message 2')
-            .then((msg) => {
-                msg.react('✔️');
-                msg.react('❌');
-    msg.awaitReactions((reaction, user) => user.id == message.author.id && (reaction.emoji.name == '❌' || reaction.emoji.name == '✔️'),
-        { max: 1, time: 30000 }).then(collected => {
-            if (collected.first().emoji.name === '✔️') {
-                msg.channel.send("Very well. Let's continue")
-                return true
-            }
-            if (collected.first().emoji.name === '❌') {
-                msg.reply('Daaaamn!! Good bye!!');
-                return false;
-            }
+        .then((msg) => {
+            msg.react('✔️');
+            msg.react('❌');
+            msg.awaitReactions((reaction, user) => user.id == message.author.id && (reaction.emoji.name == '❌' || reaction.emoji.name == '✔️'),
+                { max: 1, time: 30000 }).then(collected => {
+                    if (collected.first().emoji.name === '✔️') {
+                        msg.channel.send("Very well. Let's continue")
+                        return true
+                    }
+                    if (collected.first().emoji.name === '❌') {
+                        msg.reply('Daaaamn!! Good bye!!');
+                        return false;
+                    }
+                })
+                .catch((signal) => {
+                    if (signal) {
+                        msg.reply('No reaction after 30 seconds, operation canceled');
+                    }
+                });
         })
-        .catch((signal) => {
-            if (signal) {
-                msg.reply('No reaction after 30 seconds, operation canceled');
-            }
-        });
-    })
-    .catch(console.log)
-    
+        .catch(console.log)
+
 }
 
-exports.validateRoute = async function(pilotRoute){
+exports.validateRoute = async function (pilotRoute) {
     let database = await configsService.readJson('./assets_contents/route_database.json');
     database = database['routes'];
     let returnObj = {};
-    for(route of database){
-        if(route['route'] === pilotRoute){
-            return {name: pilotRoute + ' Classic', multiplier: 1, routeId: route['routeId']}
+    for (route of database) {
+        if (route['route'] === pilotRoute) {
+            return { name: pilotRoute + ' Classic', multiplier: 1, routeId: route['routeId'] }
         }
     }
     return returnObj;
 }
 
-exports.mapAircraftAirline = async function(aircraft, airline){
+exports.mapAircraftAirline = async function (aircraft, airline) {
     let aircraftMappings = await configsService.readJson('./assets_contents/if_afklm_mappings.json');
     let aircrafts = aircraftMappings['AircraftMappings'];
     let airlines = aircraftMappings['AirlineMappings'];
     let returnObj = {}
-    if(aircrafts.hasOwnProperty(aircraft)){
+    if (aircrafts.hasOwnProperty(aircraft)) {
         returnObj['aircraft'] = aircrafts[aircraft]
-    }else{
+    } else {
         returnObj['aircraft'] = aircrafts['Other']
     }
-    if(airlines.hasOwnProperty(airline)){
+    if (airlines.hasOwnProperty(airline)) {
         returnObj['airline'] = airlines[airline]
-    }else{
+    } else {
         returnObj['airline'] = airlines['Other']
     }
     return returnObj;
 }
 
-exports.validatePilot = async function(callsign){
+exports.validatePilot = async function (callsign) {
     let database = await configsService.readJson('./assets_contents/pilots_database.json');
     database = database['pilots'];
     let pilotId = "";
-    for(pilot of database){
-        if(pilot['callsign'].toUpperCase() === callsign){
+    for (pilot of database) {
+        if (pilot['callsign'].toUpperCase() === callsign) {
             return pilot["pilotId"];
         }
     }
