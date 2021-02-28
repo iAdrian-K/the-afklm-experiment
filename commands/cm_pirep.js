@@ -57,7 +57,7 @@ module.exports = {
         today = yyyy + '-' + mm + '-' + dd;
         // Initialise and store pirep object here with the automated values
         let callsignArray = []
-        callsignArray.push("recXgVgJ0EXRCwOT4");
+        callsignArray.push(callsignId);
         //Setting IFC id, airline, livery, callsign here
         pirepObj['CM Pilot Callsign'] = callsignArray;
         pirepObj["What is your IFC Username?"] = userFlight['username']
