@@ -16,6 +16,7 @@ module.exports = {
         let pirepObj = {};
         let selectedFlightMode, selectedRoute, multiplier;
         let pilotRemarks = '';
+        let isRotw = false;
         var reactions = ['1⃣', '2⃣', '3⃣', '4⃣', '5⃣', '6⃣', '7⃣', '8⃣', '9⃣', '🔟'];
         if (!("callsign_patterns" in guildData) || !("discord_callsign" in guildData["callsign_patterns"])) {
             message.channel.send("The callsign patterns of your server seem to be messed up. Contact admin.");
@@ -64,8 +65,19 @@ module.exports = {
         \nYou can only file for the route currently in your FPL. No other routes are allowed.\n\n```");
         let validatedRoute = await utils.validateRoute(userFlight['fpl'])
         if (validatedRoute !== {}) guildData['afklm_special']['special_routes'].push(validatedRoute);
+
+
         const route = async () => {
             let flightModes = guildData['afklm_special']['special_routes']
+            if (isRotw) {
+                selectedRoute = flightModes[0]['name']
+                let routes_arr = []
+                routes_arr.push(flightModes[0]['routeId'])
+                pirepObj['Route'] = routes_arr
+                multiplier = flightModes[0]['multiplier']
+                return
+
+            }
             let text = 'Choose your **route**: \n';
             for (let i = 0; i < flightModes.length; i++) {
                 text += `React with **${i + 1}** for **${flightModes[i]['name']}**\n`
@@ -109,16 +121,16 @@ module.exports = {
                 for (let i = 0; i < reactions.length; i++) {
                     if (collected.first().emoji.name === reactions[i]) {
                         pirepObj['Flight Mode'] = flightModes[i];
-                        
+
                     }
                 }
-                
+
             }
             catch (collected) {
                 message.channel.send('You kept me waiting for 30 secs and did not respond. That hurt. Ouch!!')
             }
         }
-let x = true;
+        let x = true;
 
         const choiceComplete = async () => {
             const msg = await message.channel.send(`Here is your log:
@@ -154,7 +166,7 @@ Route:       **${selectedRoute}**
             const msg = await message.channel.send('Enter your Flight Time in hh:mm format. **Multiplier automatically added**');
             try {
                 const collected = await message.channel.awaitMessages(msg => msg.author.id === actualMsg.author.id, { max: 1, time: 30000 });
-                pilotRemarks +='\nActual FT: ' + collected.first().content + "\nMultiplier: "+ multiplier.toString() +"\nActual Route from FPL: " + userFlight['fpl'];
+                pilotRemarks += '\nActual FT: ' + collected.first().content + "\nMultiplier: " + multiplier.toString() + "\nActual Route from FPL: " + userFlight['fpl'];
                 pirepObj['Pilot Remarks'] = pilotRemarks
                 let ft = collected.first().content;
                 let times = ft.split(':');
@@ -168,18 +180,22 @@ Route:       **${selectedRoute}**
         };
 
         await flightMode();
+        console.log(pirepObj['Flight Mode']);
+        if (pirepObj['Flight Mode'] === "SkyTeam ROTW") {
+            isRotw = true;
+        }
         await route();
         await getFlightTime();
         await choiceComplete();
-        if(!x){
+        if (!x) {
             message.channel.send("Operation cancelled");
             return
         }
-        let y = await airtable_service.filePirep(guildData["afklm_special"]["airtable_api_key"], guildData["afklm_special"]["pirep_airtable_base_id"], 
-        guildData["afklm_special"]["pirep_table_name"], pirepObj);
-        if(y){
+        let y = await airtable_service.filePirep(guildData["afklm_special"]["airtable_api_key"], guildData["afklm_special"]["pirep_airtable_base_id"],
+            guildData["afklm_special"]["pirep_table_name"], pirepObj);
+        if (y) {
             message.channel.send("Filed successfully");
-        }else{
+        } else {
             message.channel.send("Sorry it failed!")
         }
     }
