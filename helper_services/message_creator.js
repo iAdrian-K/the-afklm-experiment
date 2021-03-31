@@ -124,7 +124,7 @@ exports.createAircraftPerformanceMessage = async function (matchedAircraft) {
                 { name: 'Climb To 15000ft', value: matchedAircraft['result']["Climb to 15000ft"], inline: true },
                 { name: 'Climb To 24000ft', value: matchedAircraft['result']["Climb to 24000ft"], inline: true },
                 { name: 'Mach Climb', value: matchedAircraft['result']["Mach Climb"], inline: true },
-                { name: 'Cruise Speed', value: matchedAircraft['result']["Cruise Speed"], inline: true },
+                { name: 'Cruise Speed', value: matchedAircraft['result']["Cruise speed"], inline: true },
                 { name: 'Descent to 24000ft', value: matchedAircraft['result']["Descend to 24000ft"], inline: true },
                 { name: 'Descent to 10000ft', value: matchedAircraft['result']["Descend to 10000ft"], inline: true },
                 { name: 'Approach / MCS speed', value: matchedAircraft['result']["Approach / MCS"], inline: true },
