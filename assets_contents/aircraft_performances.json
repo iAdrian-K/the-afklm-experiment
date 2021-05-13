@@ -150,7 +150,8 @@
         "IF Checklist": "",
         "VS": "Vertical speed : GS * 5",
         "TOD formula": "Top of descent : (ground speed*altitude difference)/(60*VS)",
-        "test": ""
+        "test": "",
+        "Simbrief Profile": "https://www.simbrief.com/system/dispatch.php?sharefleet=eyJ0cyI6IjE2MTcyNjE2MzM2MDYiLCJiYXNldHlwZSI6IkEzNTkiLCJjb21tZW50cyI6IjI3TUFSMjEgLSBTQyIsImljYW8iOiJBMzU5IiwibmFtZSI6IkEzNTAtOTAwIiwiZW5naW5lcyI6IlRSRU5UIFhXQi04NCIsInJlZyI6IkEzNTkiLCJmaW4iOiIzNTkiLCJzZWxjYWwiOiIiLCJoZXhjb2RlIjoiIiwiY2F0IjoiSCIsInBlciI6IkQiLCJlcXVpcCI6IlNERTJFM0dISUoxSjNKNEo1TE0xT1JXWFlaIiwidHJhbnNwb25kZXIiOiJMQjFEMSIsInBibiI6IkExQjFDMUQxTDFPMVMyIiwiZXh0cmFybWsiOiIiLCJtYXhwYXgiOiI0NDAiLCJ3Z3R1bml0cyI6IktHUyIsIm9ldyI6IjE0MDAxMSIsIm16ZnciOiIyMTQ5MjEiLCJtdG93IjoiMjY4MDAwIiwibWx3IjoiMjA3MDAwIiwibWF4ZnVlbCI6IjEyOTUwMCIsInBheHdndCI6Ijc3IiwiZGVmYXVsdGNpIjoiIiwiZnVlbGZhY3RvciI6Ik0xMyIsImNydWlzZW9mZnNldCI6Ik00MDAwIn0-"
     },
     "A380-800": {
         "Airplane": "A380-800",
@@ -392,7 +393,8 @@
         "IF Checklist": "https://ifchecklists.app.link/B772",
         "VS": "Vertical speed : GS * 5",
         "TOD formula": "Top of descent : (ground speed*altitude difference)/(60*VS)",
-        "test": ""
+        "test": "",
+        "Simbrief Profile": "https://www.simbrief.com/system/dispatch.php?sharefleet=eyJ0cyI6IjE2MTQ3NjIzNzY1MTYiLCJiYXNldHlwZSI6IkI3NzIiLCJjb21tZW50cyI6IjI2IEZFQiAyMSIsImljYW8iOiJCNzcyIiwibmFtZSI6IkI3NzctMjAwRVIiLCJlbmdpbmVzIjoiR0U5MC05NEIiLCJyZWciOiJCNzcyIiwiZmluIjoiNzcyIiwic2VsY2FsIjoiIiwiaGV4Y29kZSI6IiIsImNhdCI6IkgiLCJwZXIiOiJEIiwiZXF1aXAiOiJTREUyRTNGR0hJSjVMT1JWV1hZIiwidHJhbnNwb25kZXIiOiJMQjFEMSIsInBibiI6IkExQjFEMVMyVDEiLCJleHRyYXJtayI6IiIsIm1heHBheCI6IjQ0MSIsIndndHVuaXRzIjoiS0dTIiwib2V3IjoiMTM5MDEwIiwibXpmdyI6IjE5MjkzOCIsIm10b3ciOiIyOTc1MDAiLCJtbHciOiIyMTMxODAiLCJtYXhmdWVsIjoiMTM5NDc2IiwicGF4d2d0IjoiNzciLCJkZWZhdWx0Y2kiOiIiLCJmdWVsZmFjdG9yIjoiTTE3IiwiY3J1aXNlb2Zmc2V0IjoiTTYwMDAifQ--"
     },
     "777-200F": {
         "Airplane": "777-200F",
@@ -414,7 +416,8 @@
         "IF Checklist": "https://ifchecklists.app.link/B772F",
         "VS": "Vertical speed : GS * 5",
         "TOD formula": "Top of descent : (ground speed*altitude difference)/(60*VS)",
-        "test": ""
+        "test": "",
+        "Simbrief Profile": "https://www.simbrief.com/system/dispatch.php?sharefleet=eyJ0cyI6IjE2MjA0OTEyNTUwODEiLCJiYXNldHlwZSI6IkI3N0YiLCJjb21tZW50cyI6IjA2TUFZMjEtU0MiLCJpY2FvIjoiQjc3RiIsIm5hbWUiOiJCNzc3LUYiLCJlbmdpbmVzIjoiR0U5MC0xMTBCMSIsInJlZyI6IkI3NzdGIiwiZmluIjoiNzdGIiwic2VsY2FsIjoiIiwiaGV4Y29kZSI6IiIsImNhdCI6IkgiLCJwZXIiOiJEIiwiZXF1aXAiOiJTREUxRTJFM0ZHSElKMkozSjRKNU0xUldYWVoiLCJ0cmFuc3BvbmRlciI6IkxCMUQxIiwicGJuIjoiQTFCMUMxRDFMMU8xUzIiLCJleHRyYXJtayI6IiIsIm1heHBheCI6IjAiLCJ3Z3R1bml0cyI6IktHUyIsIm9ldyI6IjEzOTAxMCIsIm16ZnciOiIyNjE1MjIiLCJtdG93IjoiMzQ3ODE1IiwibWx3IjoiMjYwODEwIiwibWF4ZnVlbCI6IjE0NTAwMCIsInBheHdndCI6IjEiLCJkZWZhdWx0Y2kiOiIiLCJmdWVsZmFjdG9yIjoiTTI5IiwiY3J1aXNlb2Zmc2V0IjoiTTQwMDAifQ--"
     },
     "777-200LR": {
         "Airplane": "777-200LR",
@@ -458,7 +461,8 @@
         "IF Checklist": "https://ifchecklists.app.link/B77W",
         "VS": "Vertical speed : GS * 5",
         "TOD formula": "Top of descent : (ground speed*altitude difference)/(60*VS)",
-        "test": ""
+        "test": "",
+        "Simbrief Profile": "https://www.simbrief.com/system/dispatch.php?sharefleet=eyJ0cyI6IjE2MTQ0MTQyNDc5MTYiLCJiYXNldHlwZSI6IkI3N1ciLCJjb21tZW50cyI6IjAxIEpBTiAyMSAxIiwiaWNhbyI6IkI3N1ciLCJuYW1lIjoiQjc3Ny0zMDBFUiIsImVuZ2luZXMiOiJHRTkwLTExNUJMMiIsInJlZyI6IkI3N1ciLCJmaW4iOiI3N1ciLCJzZWxjYWwiOiIiLCJoZXhjb2RlIjoiIiwiY2F0IjoiSCIsInBlciI6IkQiLCJlcXVpcCI6IlNERTFFMkUzRkdISUoySjNKNEo1TTFSV1hZWiIsInRyYW5zcG9uZGVyIjoiTEIxRDEiLCJwYm4iOiJBMUIxQzFEMUwxTzFTMiIsImV4dHJhcm1rIjoiIiwibWF4cGF4IjoiNTAzIiwid2d0dW5pdHMiOiJLR1MiLCJvZXciOiIxNjgwMTAiLCJtemZ3IjoiMjI2NzIwIiwibXRvdyI6IjM1MTUwMCIsIm1sdyI6IjI1MTI5MCIsIm1heGZ1ZWwiOiIxMzk0NzYiLCJwYXh3Z3QiOiI3NiIsImRlZmF1bHRjaSI6IiIsImZ1ZWxmYWN0b3IiOiJNMTEiLCJjcnVpc2VvZmZzZXQiOiJNMjAwMCJ9"
     },
     "787-8": {
         "Airplane": "787-8",
@@ -502,7 +506,8 @@
         "IF Checklist": "https://ifchecklists.app.link/B789",
         "VS": "Vertical speed : GS * 5",
         "TOD formula": "Top of descent : (ground speed*altitude difference)/(60*VS)",
-        "test": ""
+        "test": "",
+        "Simbrief Profile": "https://www.simbrief.com/system/dispatch.php?sharefleet=eyJ0cyI6IjE2MjA3NTU3NjcyNzQiLCJiYXNldHlwZSI6IkI3ODkiLCJjb21tZW50cyI6IjA5TUFZMjEgLSBTQyIsImljYW8iOiJCNzg5IiwibmFtZSI6IkI3ODctOSIsImVuZ2luZXMiOiJHRU5YLTFCNzQiLCJyZWciOiJCNzg5IiwiZmluIjoiNzg5Iiwic2VsY2FsIjoiIiwiaGV4Y29kZSI6IiIsImNhdCI6IkgiLCJwZXIiOiJEIiwiZXF1aXAiOiJTREUxRTJFM0ZHSElKMkozSjRKNU0xUldYWVoiLCJ0cmFuc3BvbmRlciI6IkxCMUQxIiwicGJuIjoiQTFCMUMxRDFMMU8xUzIiLCJleHRyYXJtayI6IiIsIm1heHBheCI6IjM2NCIsIndndHVuaXRzIjoiS0dTIiwib2V3IjoiMTI4ODUwIiwibXpmdyI6IjE3Njg1MCIsIm10b3ciOiIyNTQwMTEiLCJtbHciOiIxOTI3NzciLCJtYXhmdWVsIjoiMTAxMzIyIiwicGF4d2d0IjoiNzciLCJkZWZhdWx0Y2kiOiIiLCJmdWVsZmFjdG9yIjoiTTExIiwiY3J1aXNlb2Zmc2V0IjoiTTUwMDAifQ--"
     },
     "787-10": {
         "Airplane": "787-10",

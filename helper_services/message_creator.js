@@ -114,12 +114,15 @@ exports.createAircraftPerformanceMessage = async function (matchedAircraft) {
     if (matchedAircraft['matched']) {
         let objKeys = Object.keys(matchedAircraft['result'])
         objKeys.forEach(key => {
-           dataFields.push({
+            
+            if(matchedAircraft['result'][key] !== '') dataFields.push({
             name: key,
             value: matchedAircraft['result'][key],
             inline: true
            })
+
         });
+        console.log(dataFields);
         var aircraftResponse = new Discord.MessageEmbed()
             .setTitle(`Aircraft Performance Spec of ${matchedAircraft['result']['Airplane']}`)
             .addFields(dataFields)
