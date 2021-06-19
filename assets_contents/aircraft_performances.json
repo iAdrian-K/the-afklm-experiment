@@ -15,10 +15,7 @@
         "Descend to 10000ft": "290kts / 3500",
         "Approach / MCS": "250-210kts / 1500",
         "Landing": "135kts",
-        "Flaps at descend": "1@220kts 2@195kts 3@175kts F@165kts",
-        "VS": "Vertical speed : GS * 5",
-        "TOD formula": "Top of descent : (ground speed*altitude difference)/(60*VS)",
-        "test": ""
+        "Flaps at descend": "1@220kts 2@195kts 3@175kts F@165kts"
     },
     "A319-100": {
         "Airplane": "A319-100",
@@ -36,11 +33,7 @@
         "Descend to 10000ft": "290kts / 3500",
         "Approach / MCS": "230-210kts / 1500",
         "Landing": "130kts",
-        "Flaps at descend": "1@230kts 2@200kts 3@185kts F@177kts",
-        "IF Checklist": "https://ifchecklists.app.link/A319",
-        "VS": "Vertical speed : GS * 5",
-        "TOD formula": "Top of descent : (ground speed*altitude difference)/(60*VS)",
-        "test": ""
+        "Flaps at descend": "1@230kts 2@200kts 3@185kts F@177kts"
     },
     "A320-200": {
         "Airplane": "A320-200",
@@ -58,11 +51,7 @@
         "Descend to 10000ft": "290kts / 3500",
         "Approach / MCS": "250-210kts / 1500",
         "Landing": "137kts",
-        "Flaps at descend": "1@230kts 2@200kts 3@185kts F@177kts",
-        "IF Checklist": "https://ifchecklists.app.link/A320",
-        "VS": "Vertical speed : GS * 5",
-        "TOD formula": "Top of descent : (ground speed*altitude difference)/(60*VS)",
-        "test": ""
+        "Flaps at descend": "1@230kts 2@200kts 3@185kts F@177kts"
     },
     "A321-200": {
         "Airplane": "A321-200",
@@ -80,11 +69,7 @@
         "Descend to 10000ft": "290kts / 2500",
         "Approach / MCS": "225-210kts / 1500",
         "Landing": "141kts",
-        "Flaps at descend": "1@240 kts 2@205kts 3@196kts F@186kts",
-        "IF Checklist": "https://ifchecklists.app.link/A321",
-        "VS": "Vertical speed : GS * 5",
-        "TOD formula": "Top of descent : (ground speed*altitude difference)/(60*VS)",
-        "test": ""
+        "Flaps at descend": "1@240 kts 2@205kts 3@196kts F@186kts"
     },
     "A330-300": {
         "Airplane": "A330-300",
@@ -102,11 +87,7 @@
         "Descend to 10000ft": "290kts / 3000",
         "Approach / MCS": "220-200kts / 1500",
         "Landing": "140kts",
-        "Flaps at descend": "1@240 kts 2@205kts 3@196kts F@186kts",
-        "IF Checklist": "https://ifchecklists.app.link/A333",
-        "VS": "Vertical speed : GS * 5",
-        "TOD formula": "Top of descent : (ground speed*altitude difference)/(60*VS)",
-        "test": ""
+        "Flaps at descend": "1@240 kts 2@205kts 3@196kts F@186kts"
     },
     "A340-600": {
         "Airplane": "A340-600",
@@ -124,11 +105,7 @@
         "Descend to 10000ft": "290kts / 2000",
         "Approach / MCS": "250-210kts / 1500",
         "Landing": "150kts",
-        "Flaps at descend": "1@255kts 2@205kts 3@186kts F@180kts",
-        "IF Checklist": "https://ifchecklists.app.link/A346",
-        "VS": "Vertical speed : GS * 5",
-        "TOD formula": "Top of descent : (ground speed*altitude difference)/(60*VS)",
-        "test": ""
+        "Flaps at descend": "1@255kts 2@205kts 3@186kts F@180kts"
     },
     "A350-900": {
         "Airplane": "A350-900",
@@ -147,10 +124,6 @@
         "Approach / MCS": "240 - 220kts / 1500",
         "Landing": "155kts / 888",
         "Flaps at descend": "1@220kts  2@212kts  3@190kts  Full@186kts",
-        "IF Checklist": "",
-        "VS": "Vertical speed : GS * 5",
-        "TOD formula": "Top of descent : (ground speed*altitude difference)/(60*VS)",
-        "test": "",
         "Simbrief Profile": "https://www.simbrief.com/system/dispatch.php?sharefleet=eyJ0cyI6IjE2MTcyNjE2MzM2MDYiLCJiYXNldHlwZSI6IkEzNTkiLCJjb21tZW50cyI6IjI3TUFSMjEgLSBTQyIsImljYW8iOiJBMzU5IiwibmFtZSI6IkEzNTAtOTAwIiwiZW5naW5lcyI6IlRSRU5UIFhXQi04NCIsInJlZyI6IkEzNTkiLCJmaW4iOiIzNTkiLCJzZWxjYWwiOiIiLCJoZXhjb2RlIjoiIiwiY2F0IjoiSCIsInBlciI6IkQiLCJlcXVpcCI6IlNERTJFM0dISUoxSjNKNEo1TE0xT1JXWFlaIiwidHJhbnNwb25kZXIiOiJMQjFEMSIsInBibiI6IkExQjFDMUQxTDFPMVMyIiwiZXh0cmFybWsiOiIiLCJtYXhwYXgiOiI0NDAiLCJ3Z3R1bml0cyI6IktHUyIsIm9ldyI6IjE0MDAxMSIsIm16ZnciOiIyMTQ5MjEiLCJtdG93IjoiMjY4MDAwIiwibWx3IjoiMjA3MDAwIiwibWF4ZnVlbCI6IjEyOTUwMCIsInBheHdndCI6Ijc3IiwiZGVmYXVsdGNpIjoiIiwiZnVlbGZhY3RvciI6Ik0xMyIsImNydWlzZW9mZnNldCI6Ik00MDAwIn0-"
     },
     "A380-800": {
@@ -169,11 +142,7 @@
         "Descend to 10000ft": "300kts / 2000",
         "Approach / MCS": "250-230kts / 1000",
         "Landing": "140kts",
-        "Flaps at descend": "1@263kts 2@220kts 3@196kts F@182kts",
-        "IF Checklist": "https://ifchecklists.app.link/A388",
-        "VS": "Vertical speed : GS * 5",
-        "TOD formula": "Top of descent : (ground speed*altitude difference)/(60*VS)",
-        "test": ""
+        "Flaps at descend": "1@263kts 2@220kts 3@196kts F@182kts"
     },
     "717-200": {
         "Airplane": "717-200",
@@ -191,11 +160,7 @@
         "Descend to 10000ft": "290kts / 3500",
         "Approach / MCS": "210kts / 1500",
         "Landing": "139kts",
-        "Flaps at descend": "1@280kts 5@280kts 10@280kts 20@240kts 30@220kts 40@200kts",
-        "IF Checklist": "https://ifchecklists.app.link/B712",
-        "VS": "Vertical speed : GS * 5",
-        "TOD formula": "Top of descent : (ground speed*altitude difference)/(60*VS)",
-        "test": ""
+        "Flaps at descend": "1@280kts 5@280kts 10@280kts 20@240kts 30@220kts 40@200kts"
     },
     "737-700": {
         "Airplane": "737-700",
@@ -213,11 +178,7 @@
         "Descend to 10000ft": "280kts / 3500",
         "Approach / MCS": "250-190kts / 1500",
         "Landing": "137kts",
-        "Flaps at descend": "1@230kts 2@230kts 5@225kts 15@195kts 25@190kts 30@185kts 40@170kts",
-        "IF Checklist": "https://ifchecklists.app.link/B737",
-        "VS": "Vertical speed : GS * 5",
-        "TOD formula": "Top of descent : (ground speed*altitude difference)/(60*VS)",
-        "test": ""
+        "Flaps at descend": "1@230kts 2@230kts 5@225kts 15@195kts 25@190kts 30@185kts 40@170kts"
     },
     "737-800": {
         "Airplane": "737-800",
@@ -235,12 +196,7 @@
         "Descend to 10000ft": "280kts / 3500",
         "Approach / MCS": "250-210kts / 1500",
         "Landing": "147kts",
-        "Flaps at descend": "1@230kts 2@230kts 5@225kts 15@195kts 25@190kts 30@185kts 40@170kts",
-        "IF Checklist": "https://ifchecklists.app.link/B738",
-        "VS": "Vertical speed : GS * 5",
-        "TOD formula": "Top of descent : (ground speed*altitude difference)/(60*VS)",
-        "test": ""
-    },
+        "Flaps at descend": "1@230kts 2@230kts 5@225kts 15@195kts 25@190kts 30@185kts 40@170kts"},
     "737-900": {
         "Airplane": "737-900",
         "Ceiling": "FL410",
@@ -257,11 +213,7 @@
         "Descend to 10000ft": "280kts / 3500",
         "Approach / MCS": "250-210kts / 1500",
         "Landing": "150kts",
-        "Flaps at descend": "1@230kts 2@230kts 5@225kts 15@195kts 25@190kts 30@185kts 40@170kts",
-        "IF Checklist": "https://ifchecklists.app.link/B739",
-        "VS": "Vertical speed : GS * 5",
-        "TOD formula": "Top of descent : (ground speed*altitude difference)/(60*VS)",
-        "test": ""
+        "Flaps at descend": "1@230kts 2@230kts 5@225kts 15@195kts 25@190kts 30@185kts 40@170kts"
     },
     "747-200": {
         "Airplane": "747-200",
@@ -279,11 +231,7 @@
         "Descend to 10000ft": "290kts / 3000",
         "Approach / MCS": "250-250kts / 1500",
         "Landing": "150kts",
-        "Flaps at descend": "1@275kts 5@255kts 10@238kts 25@205kts 30@180kts ",
-        "IF Checklist": "https://ifchecklists.app.link/B742",
-        "VS": "Vertical speed : GS * 5",
-        "TOD formula": "Top of descent : (ground speed*altitude difference)/(60*VS)",
-        "test": ""
+        "Flaps at descend": "1@275kts 5@255kts 10@238kts 25@205kts 30@180kts "
     },
     "747-400": {
         "Airplane": "747-400",
@@ -301,11 +249,7 @@
         "Descend to 10000ft": "300kts / 3000",
         "Approach / MCS": "250-250kts / 1500",
         "Landing": "152kts",
-        "Flaps at descend": "1@280kts 5@260kts 10@240kts 25@205kts 30@180kts ",
-        "IF Checklist": "https://ifchecklists.app.link/B744",
-        "VS": "Vertical speed : GS * 5",
-        "TOD formula": "Top of descent : (ground speed*altitude difference)/(60*VS)",
-        "test": ""
+        "Flaps at descend": "1@280kts 5@260kts 10@240kts 25@205kts 30@180kts "
     },
     "747-800": {
         "Airplane": "747-800",
@@ -323,11 +267,7 @@
         "Descend to 10000ft": "250kts / 3000",
         "Approach / MCS": "220-210kts / 1500",
         "Landing": "145 kts",
-        "Flaps at descend": "1@285kts 5@265kts 10@245kts 25@210kts 30@185kts ",
-        "IF Checklist": "https://ifchecklists.app.link/B748",
-        "VS": "Vertical speed : GS * 5",
-        "TOD formula": "Top of descent : (ground speed*altitude difference)/(60*VS)",
-        "test": ""
+        "Flaps at descend": "1@285kts 5@265kts 10@245kts 25@210kts 30@185kts "
     },
     "757-200": {
         "Airplane": "757-200",
@@ -345,11 +285,7 @@
         "Descend to 10000ft": "270kts / 3500",
         "Approach / MCS": "220-210kts / 1500",
         "Landing": "130kts",
-        "Flaps at descend": "1@240kts 5@220kts 15@210kts 25@190kts 30@162kts ",
-        "IF Checklist": "https://ifchecklists.app.link/B752",
-        "VS": "Vertical speed : GS * 5",
-        "TOD formula": "Top of descent : (ground speed*altitude difference)/(60*VS)",
-        "test": ""
+        "Flaps at descend": "1@240kts 5@220kts 15@210kts 25@190kts 30@162kts "
     },
     "767-300": {
         "Airplane": "767-300",
@@ -367,11 +303,7 @@
         "Descend to 10000ft": "290kts / 3000",
         "Approach / MCS": "230-220kts / 1500",
         "Landing": "140kts",
-        "Flaps at descend": "1@250kts 5@230kts 15@210kts 25@180kts 30@170kts ",
-        "IF Checklist": "https://ifchecklists.app.link/B763",
-        "VS": "Vertical speed : GS * 5",
-        "TOD formula": "Top of descent : (ground speed*altitude difference)/(60*VS)",
-        "test": ""
+        "Flaps at descend": "1@250kts 5@230kts 15@210kts 25@180kts 30@170kts "
     },
     "777-200ER": {
         "Airplane": "777-200ER",
@@ -390,10 +322,6 @@
         "Approach / MCS": "250-240kts / 1500",
         "Landing": "140kts",
         "Flaps at descend": "1@255kts 5@235kts 15@215kts 25@185kts 30@170kts ",
-        "IF Checklist": "https://ifchecklists.app.link/B772",
-        "VS": "Vertical speed : GS * 5",
-        "TOD formula": "Top of descent : (ground speed*altitude difference)/(60*VS)",
-        "test": "",
         "Simbrief Profile": "https://www.simbrief.com/system/dispatch.php?sharefleet=eyJ0cyI6IjE2MTQ3NjIzNzY1MTYiLCJiYXNldHlwZSI6IkI3NzIiLCJjb21tZW50cyI6IjI2IEZFQiAyMSIsImljYW8iOiJCNzcyIiwibmFtZSI6IkI3NzctMjAwRVIiLCJlbmdpbmVzIjoiR0U5MC05NEIiLCJyZWciOiJCNzcyIiwiZmluIjoiNzcyIiwic2VsY2FsIjoiIiwiaGV4Y29kZSI6IiIsImNhdCI6IkgiLCJwZXIiOiJEIiwiZXF1aXAiOiJTREUyRTNGR0hJSjVMT1JWV1hZIiwidHJhbnNwb25kZXIiOiJMQjFEMSIsInBibiI6IkExQjFEMVMyVDEiLCJleHRyYXJtayI6IiIsIm1heHBheCI6IjQ0MSIsIndndHVuaXRzIjoiS0dTIiwib2V3IjoiMTM5MDEwIiwibXpmdyI6IjE5MjkzOCIsIm10b3ciOiIyOTc1MDAiLCJtbHciOiIyMTMxODAiLCJtYXhmdWVsIjoiMTM5NDc2IiwicGF4d2d0IjoiNzciLCJkZWZhdWx0Y2kiOiIiLCJmdWVsZmFjdG9yIjoiTTE3IiwiY3J1aXNlb2Zmc2V0IjoiTTYwMDAifQ--"
     },
     "777-200F": {
@@ -413,10 +341,6 @@
         "Approach / MCS": "240-210kts / 1700",
         "Landing": "140kts",
         "Flaps at descend": "1@255kts 5@235kts 15@215kts 25@185kts 30@170kts ",
-        "IF Checklist": "https://ifchecklists.app.link/B772F",
-        "VS": "Vertical speed : GS * 5",
-        "TOD formula": "Top of descent : (ground speed*altitude difference)/(60*VS)",
-        "test": "",
         "Simbrief Profile": "https://www.simbrief.com/system/dispatch.php?sharefleet=eyJ0cyI6IjE2MjA0OTEyNTUwODEiLCJiYXNldHlwZSI6IkI3N0YiLCJjb21tZW50cyI6IjA2TUFZMjEtU0MiLCJpY2FvIjoiQjc3RiIsIm5hbWUiOiJCNzc3LUYiLCJlbmdpbmVzIjoiR0U5MC0xMTBCMSIsInJlZyI6IkI3NzdGIiwiZmluIjoiNzdGIiwic2VsY2FsIjoiIiwiaGV4Y29kZSI6IiIsImNhdCI6IkgiLCJwZXIiOiJEIiwiZXF1aXAiOiJTREUxRTJFM0ZHSElKMkozSjRKNU0xUldYWVoiLCJ0cmFuc3BvbmRlciI6IkxCMUQxIiwicGJuIjoiQTFCMUMxRDFMMU8xUzIiLCJleHRyYXJtayI6IiIsIm1heHBheCI6IjAiLCJ3Z3R1bml0cyI6IktHUyIsIm9ldyI6IjEzOTAxMCIsIm16ZnciOiIyNjE1MjIiLCJtdG93IjoiMzQ3ODE1IiwibWx3IjoiMjYwODEwIiwibWF4ZnVlbCI6IjE0NTAwMCIsInBheHdndCI6IjEiLCJkZWZhdWx0Y2kiOiIiLCJmdWVsZmFjdG9yIjoiTTI5IiwiY3J1aXNlb2Zmc2V0IjoiTTQwMDAifQ--"
     },
     "777-200LR": {
@@ -435,11 +359,7 @@
         "Descend to 10000ft": "240kts / 3000",
         "Approach / MCS": "240-210kts / 2000",
         "Landing": "140kts",
-        "Flaps at descend": "1@255kts 5@235kts 15@215kts 25@185kts 30@170kts ",
-        "IF Checklist": "https://ifchecklists.app.link/B772LR",
-        "VS": "Vertical speed : GS * 5",
-        "TOD formula": "Top of descent : (ground speed*altitude difference)/(60*VS)",
-        "test": ""
+        "Flaps at descend": "1@255kts 5@235kts 15@215kts 25@185kts 30@170kts "
     },
     "777-300ER": {
         "Airplane": "777-300ER",
@@ -458,10 +378,6 @@
         "Approach / MCS": "250-240kts / 1500",
         "Landing": "149kts",
         "Flaps at descend": "1@265kts 5@245kts 15@230kts 25@200kts 30@180kts ",
-        "IF Checklist": "https://ifchecklists.app.link/B77W",
-        "VS": "Vertical speed : GS * 5",
-        "TOD formula": "Top of descent : (ground speed*altitude difference)/(60*VS)",
-        "test": "",
         "Simbrief Profile": "https://www.simbrief.com/system/dispatch.php?sharefleet=eyJ0cyI6IjE2MTQ0MTQyNDc5MTYiLCJiYXNldHlwZSI6IkI3N1ciLCJjb21tZW50cyI6IjAxIEpBTiAyMSAxIiwiaWNhbyI6IkI3N1ciLCJuYW1lIjoiQjc3Ny0zMDBFUiIsImVuZ2luZXMiOiJHRTkwLTExNUJMMiIsInJlZyI6IkI3N1ciLCJmaW4iOiI3N1ciLCJzZWxjYWwiOiIiLCJoZXhjb2RlIjoiIiwiY2F0IjoiSCIsInBlciI6IkQiLCJlcXVpcCI6IlNERTFFMkUzRkdISUoySjNKNEo1TTFSV1hZWiIsInRyYW5zcG9uZGVyIjoiTEIxRDEiLCJwYm4iOiJBMUIxQzFEMUwxTzFTMiIsImV4dHJhcm1rIjoiIiwibWF4cGF4IjoiNTAzIiwid2d0dW5pdHMiOiJLR1MiLCJvZXciOiIxNjgwMTAiLCJtemZ3IjoiMjI2NzIwIiwibXRvdyI6IjM1MTUwMCIsIm1sdyI6IjI1MTI5MCIsIm1heGZ1ZWwiOiIxMzk0NzYiLCJwYXh3Z3QiOiI3NiIsImRlZmF1bHRjaSI6IiIsImZ1ZWxmYWN0b3IiOiJNMTEiLCJjcnVpc2VvZmZzZXQiOiJNMjAwMCJ9"
     },
     "787-8": {
@@ -480,11 +396,7 @@
         "Descend to 10000ft": "300kts / 2800",
         "Approach / MCS": "240-220kts / 1500",
         "Landing": "140kts",
-        "Flaps at descend": "1@250kts 5@230kts 15@215kts 25@180kts 30@170kts ",
-        "IF Checklist": "https://ifchecklists.app.link/B788",
-        "VS": "Vertical speed : GS * 5",
-        "TOD formula": "Top of descent : (ground speed*altitude difference)/(60*VS)",
-        "test": ""
+        "Flaps at descend": "1@250kts 5@230kts 15@215kts 25@180kts 30@170kts "
     },
     "787-9": {
         "Airplane": "787-9",
@@ -503,10 +415,6 @@
         "Approach / MCS": "",
         "Landing": "",
         "Flaps at descend": "1@250kts 5@230kts 15@215kts 25@180kts 30@170kts ",
-        "IF Checklist": "https://ifchecklists.app.link/B789",
-        "VS": "Vertical speed : GS * 5",
-        "TOD formula": "Top of descent : (ground speed*altitude difference)/(60*VS)",
-        "test": "",
         "Simbrief Profile": "https://www.simbrief.com/system/dispatch.php?sharefleet=eyJ0cyI6IjE2MjA3NTU3NjcyNzQiLCJiYXNldHlwZSI6IkI3ODkiLCJjb21tZW50cyI6IjA5TUFZMjEgLSBTQyIsImljYW8iOiJCNzg5IiwibmFtZSI6IkI3ODctOSIsImVuZ2luZXMiOiJHRU5YLTFCNzQiLCJyZWciOiJCNzg5IiwiZmluIjoiNzg5Iiwic2VsY2FsIjoiIiwiaGV4Y29kZSI6IiIsImNhdCI6IkgiLCJwZXIiOiJEIiwiZXF1aXAiOiJTREUxRTJFM0ZHSElKMkozSjRKNU0xUldYWVoiLCJ0cmFuc3BvbmRlciI6IkxCMUQxIiwicGJuIjoiQTFCMUMxRDFMMU8xUzIiLCJleHRyYXJtayI6IiIsIm1heHBheCI6IjM2NCIsIndndHVuaXRzIjoiS0dTIiwib2V3IjoiMTI4ODUwIiwibXpmdyI6IjE3Njg1MCIsIm10b3ciOiIyNTQwMTEiLCJtbHciOiIxOTI3NzciLCJtYXhmdWVsIjoiMTAxMzIyIiwicGF4d2d0IjoiNzciLCJkZWZhdWx0Y2kiOiIiLCJmdWVsZmFjdG9yIjoiTTExIiwiY3J1aXNlb2Zmc2V0IjoiTTUwMDAifQ--"
     },
     "787-10": {
@@ -525,11 +433,7 @@
         "Descend to 10000ft": "",
         "Approach / MCS": "",
         "Landing": "",
-        "Flaps at descend": "1@250kts 5@230kts 15@215kts 25@180kts 30@170kts ",
-        "IF Checklist": "https://ifchecklists.app.link/B78X",
-        "VS": "Vertical speed : GS * 5",
-        "TOD formula": "Top of descent : (ground speed*altitude difference)/(60*VS)",
-        "test": ""
+        "Flaps at descend": "1@250kts 5@230kts 15@215kts 25@180kts 30@170kts "
     },
     "Dash 8-Q400": {
         "Airplane": "Dash 8-Q400",
@@ -547,11 +451,7 @@
         "Descend to 10000ft": "270kts / 1500",
         "Approach / MCS": "245-180kts / 1500",
         "Landing": "121kts",
-        "Flaps at descend": "5@200kts 10@181kts 15@172kts 35@158kts  ",
-        "IF Checklist": "https://ifchecklists.app.link/DH8D",
-        "VS": "Vertical speed : GS * 5",
-        "TOD formula": "Top of descent : (ground speed*altitude difference)/(60*VS)",
-        "test": ""
+        "Flaps at descend": "5@200kts 10@181kts 15@172kts 35@158kts  "
     },
     "CRJ-200": {
         "Airplane": "CRJ-200",
@@ -569,11 +469,7 @@
         "Descend to 10000ft": "250kts / 3000",
         "Approach / MCS": "250-190kts / 1500",
         "Landing": "140kts",
-        "Flaps at descend": "1@230kts 8@200kts 20@200kts 30@185kts 45@170kts ",
-        "IF Checklist": "https://ifchecklists.app.link/CRJ2",
-        "VS": "Vertical speed : GS * 5",
-        "TOD formula": "Top of descent : (ground speed*altitude difference)/(60*VS)",
-        "test": ""
+        "Flaps at descend": "1@230kts 8@200kts 20@200kts 30@185kts 45@170kts "
     },
     "CRJ-700": {
         "Airplane": "CRJ-700",
@@ -591,11 +487,7 @@
         "Descend to 10000ft": "290kts / 3500",
         "Approach / MCS": "250-180kts / 1500",
         "Landing": "135kts",
-        "Flaps at descend": "1@230kts 8@230kts 20@220kts 30@185kts 45@170kts ",
-        "IF Checklist": "https://ifchecklists.app.link/CRJ7",
-        "VS": "Vertical speed : GS * 5",
-        "TOD formula": "Top of descent : (ground speed*altitude difference)/(60*VS)",
-        "test": ""
+        "Flaps at descend": "1@230kts 8@230kts 20@220kts 30@185kts 45@170kts "
     },
     "CRJ-900": {
         "Airplane": "CRJ-900",
@@ -613,11 +505,7 @@
         "Descend to 10000ft": "",
         "Approach / MCS": "",
         "Landing": "",
-        "Flaps at descend": "1@230kts 8@230kts 20@220kts 30@185kts 45@170kts ",
-        "IF Checklist": "https://ifchecklists.app.link/CRJ9",
-        "VS": "Vertical speed : GS * 5",
-        "TOD formula": "Top of descent : (ground speed*altitude difference)/(60*VS)",
-        "test": ""
+        "Flaps at descend": "1@230kts 8@230kts 20@220kts 30@185kts 45@170kts "
     },
     "CRJ-1000": {
         "Airplane": "CRJ-1000",
@@ -635,11 +523,7 @@
         "Descend to 10000ft": "280kts / 2100",
         "Approach / MCS": "250-190kts / 1200",
         "Landing": "130kts",
-        "Flaps at descend": "1@230kts 8@230kts 20@220kts 30@185kts 45@170kts ",
-        "IF Checklist": "https://ifchecklists.app.link/CRJX",
-        "VS": "Vertical speed : GS * 5",
-        "TOD formula": "Top of descent : (ground speed*altitude difference)/(60*VS)",
-        "test": ""
+        "Flaps at descend": "1@230kts 8@230kts 20@220kts 30@185kts 45@170kts "
     },
     "XCub": {
         "Airplane": "XCub",
@@ -657,11 +541,7 @@
         "Descend to 10000ft": "1500",
         "Approach / MCS": "1500",
         "Landing": "50kts",
-        "Flaps at descend": "16@74kts 33@70kts 46@70kts   ",
-        "IF Checklist": "https://ifchecklists.app.link/XCub",
-        "VS": "Vertical speed : GS * 5",
-        "TOD formula": "Top of descent : (ground speed*altitude difference)/(60*VS)",
-        "test": ""
+        "Flaps at descend": "16@74kts 33@70kts 46@70kts   "
     },
     "TBM 930": {
         "Airplane": "TBM 930",
@@ -679,11 +559,7 @@
         "Descend to 10000ft": "170kts / 1500",
         "Approach / MCS": "160-115kts / 800",
         "Landing": "95kts",
-        "Flaps at descend": "TO@178kts LDG@122kts    ",
-        "IF Checklist": "https://ifchecklists.app.link/TBM-930",
-        "VS": "Vertical speed : GS * 5",
-        "TOD formula": "Top of descent : (ground speed*altitude difference)/(60*VS)",
-        "test": ""
+        "Flaps at descend": "TO@178kts LDG@122kts    "
     },
     "ERJ-170": {
         "Airplane": "ERJ-170",
@@ -701,11 +577,7 @@
         "Descend to 10000ft": "300kts / 2600",
         "Approach / MCS": "250-210kts / 2000",
         "Landing": "130kts",
-        "Flaps at descend": "7@230kts 10@200kts 20@180kts 37@165kts  ",
-        "IF Checklist": "https://ifchecklists.app.link/E170",
-        "VS": "Vertical speed : GS * 5",
-        "TOD formula": "Top of descent : (ground speed*altitude difference)/(60*VS)",
-        "test": ""
+        "Flaps at descend": "7@230kts 10@200kts 20@180kts 37@165kts  "
     },
     "ERJ-190": {
         "Airplane": "ERJ-190",
@@ -723,11 +595,7 @@
         "Descend to 10000ft": "250kts / 2200",
         "Approach / MCS": "230-210kts / 1600",
         "Landing": "131kts",
-        "Flaps at descend": "7@230kts 10@200kts 20@180kts 37@165kts  ",
-        "IF Checklist": "https://ifchecklists.app.link/E190",
-        "VS": "Vertical speed : GS * 5",
-        "TOD formula": "Top of descent : (ground speed*altitude difference)/(60*VS)",
-        "test": ""
+        "Flaps at descend": "7@230kts 10@200kts 20@180kts 37@165kts  "
     },
     "ERJ-195": {
         "Airplane": "ERJ-195",
@@ -745,11 +613,7 @@
         "Descend to 10000ft": "250kts / 2200",
         "Approach / MCS": "230-210kts / 1600",
         "Landing": "131kts",
-        "Flaps at descend": "7@230kts 10@200kts 20@180kts 37@165kts  ",
-        "IF Checklist": "https://ifchecklists.app.link/E195",
-        "VS": "Vertical speed : GS * 5",
-        "TOD formula": "Top of descent : (ground speed*altitude difference)/(60*VS)",
-        "test": ""
+        "Flaps at descend": "7@230kts 10@200kts 20@180kts 37@165kts  "
     },
     "DC-10": {
         "Airplane": "DC-10",
@@ -767,11 +631,7 @@
         "Descend to 10000ft": "300kts / 1500",
         "Approach / MCS": "250-230kts / 1500",
         "Landing": "149kts",
-        "Flaps at descend": "1@280kts 10@255kts 15@240kts 28@210kts 35@190kts 50@175kts",
-        "IF Checklist": "https://ifchecklists.app.link/DC10",
-        "VS": "Vertical speed : GS * 5",
-        "TOD formula": "Top of descent : (ground speed*altitude difference)/(60*VS)",
-        "test": ""
+        "Flaps at descend": "1@280kts 10@255kts 15@240kts 28@210kts 35@190kts 50@175kts"
     },
     "MD-11": {
         "Airplane": "MD-11",
@@ -789,11 +649,7 @@
         "Descend to 10000ft": "300kts / 3000",
         "Approach / MCS": "250-240kts / 1500",
         "Landing": "149kts",
-        "Flaps at descend": "1@280kts 10@255kts 15@240kts 28@210kts 35@190kts 50@175kts",
-        "IF Checklist": "https://ifchecklists.app.link/MD11",
-        "VS": "Vertical speed : GS * 5",
-        "TOD formula": "Top of descent : (ground speed*altitude difference)/(60*VS)",
-        "test": ""
+        "Flaps at descend": "1@280kts 10@255kts 15@240kts 28@210kts 35@190kts 50@175kts"
     },
     "MD-11F": {
         "Airplane": "MD-11F",
@@ -811,11 +667,7 @@
         "Descend to 10000ft": "300kts / 3000",
         "Approach / MCS": "250-240kts / 1500",
         "Landing": "149kts",
-        "Flaps at descend": "1@280kts 10@255kts 15@240kts 28@210kts 35@190kts 50@175kts",
-        "IF Checklist": "https://ifchecklists.app.link/MD11F",
-        "VS": "Vertical speed : GS * 5",
-        "TOD formula": "Top of descent : (ground speed*altitude difference)/(60*VS)",
-        "test": ""
+        "Flaps at descend": "1@280kts 10@255kts 15@240kts 28@210kts 35@190kts 50@175kts"
     },
     "keys": [
         "A318-100",
