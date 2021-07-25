@@ -1,4 +1,5 @@
-const Discord = require('discord.js')
+const Discord = require('discord.js');
+var utils = require('./utils');
 
 exports.createCmStatsMessage = async function (record, configFields, callsignField) {
     let dataFields = []
@@ -242,4 +243,25 @@ exports.createUserMessage = async function (userInfo) {
         .addFields(dataFields)
         .setAuthor("TheAircraftExperimentBot")
     return userResponse;
+}
+
+exports.createLeaderBoard = async function(leaders){
+    let podiums  = ['🥇', '🥈', '🥉' ];
+    let leaderboardMessage = "";
+    for (var counter = 0; counter < leaders.length  && counter < 3; counter++) 
+    {
+        let pilotName = await utils.getPilotName(leaders[counter][0])
+        leaderboardMessage = leaderboardMessage + `${podiums[counter]} - ${pilotName} (${leaders[counter][1]}) \n`;
+    }
+    let dataFields = [];
+    dataFields.push({
+        name: "Podium 👑",
+        value: leaderboardMessage,
+        inline: false
+    })
+    var atcResponse = new Discord.MessageEmbed()
+        .setTitle(`Live Leaderboards`)
+        .addFields(dataFields)
+        .setAuthor("Sanket")
+    return atcResponse;
 }

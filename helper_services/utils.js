@@ -323,3 +323,34 @@ exports.validateCmPilot = async function (callsign) {
     }
     return pilotId
 }
+
+exports.getLeaderboards = async function(loggedPilots){
+    let dataArray = []; 
+    Object.keys(loggedPilots).forEach(key => {
+        dataArray.push([key, loggedPilots[key].length])
+    })
+    dataArray.sort(compareSecondColumn);
+    return dataArray;
+
+}
+
+function compareSecondColumn(a, b) {
+    if (a[1] === b[1]) {
+        return 0;
+    }
+    else {
+        return (a[1] < b[1]) ? 1 : -1;
+    }
+}
+
+exports.getPilotName = async function(pilotId){
+    let pilots = await configsService.readJson('./assets_contents/pilots_database.json');
+    pilots = pilots['pilots'];
+    let pilotName = "";
+    pilots.forEach(pilot => {
+        if (pilot.pilotId === pilotId){
+            pilotName = pilot.name
+        } 
+    });
+    return pilotName;
+}
