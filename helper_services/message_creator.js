@@ -270,18 +270,24 @@ exports.createWTStats = async function(leaders){
     let leaderboardMessage = "";
     let logCount = 0;
     let pilotCount = 0;
+    let logsMessaage = "";
     for (var counter = 0; counter < leaders.length ; counter++) 
     {
         logCount = logCount + leaders[counter][1];
         pilotCount = pilotCount + 1;
         let pilotName = await utils.getPilotName(leaders[counter][0]);
-        leaderboardMessage = leaderboardMessage + ` ${pilotName} (${leaders[counter][1]}) \n`;
+        leaderboardMessage = leaderboardMessage + ` ${pilotName} \n`;
+        logsMessaage = logsMessaage + `${leaders[counter][1]}\n`
     }
     let dataFields = [];
     dataFields.push({
         name: "Pilots",
         value: leaderboardMessage,
-        inline: false
+        inline: true
+    }, {
+        name: "Logs Filed",
+        value: logsMessaage,
+        inline: true
     },{
         name: "WT4 Stats",
         value: `Pilots Participated: ${pilotCount} \n Logs Filed: ${logCount}`,
