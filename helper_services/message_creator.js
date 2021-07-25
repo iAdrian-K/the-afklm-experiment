@@ -262,7 +262,7 @@ exports.createLeaderBoard = async function(leaders){
     var atcResponse = new Discord.MessageEmbed()
         .setTitle(`Live AFKLM World Tour 4 Leaderboards`)
         .addFields(dataFields)
-        .setAuthor("Sanket")
+        .setAuthor("AFKLM World Tour Team")
     return atcResponse;
 }
 exports.createWTStats = async function(leaders){
@@ -291,6 +291,6 @@ exports.createWTStats = async function(leaders){
     var atcResponse = new Discord.MessageEmbed()
         .setTitle(`Live AFKLM WT4 Statistics`)
         .addFields(dataFields)
-        .setAuthor("Sanket")
+        .setAuthor("AFKLM World Tour Team")
     return atcResponse;
 }
