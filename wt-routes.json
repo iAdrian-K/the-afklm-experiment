@@ -1,0 +1,144 @@
+{
+  "SLLP-SCEL": {
+    "routeId": "rec0R0x0YGapkdr8I",
+    "route": "WT4 - Leg 8 [SLLP-SCEL]"
+  },
+
+  "DGAA-HKJK": {
+    "routeId": "rec1hhqnAh2rsA38g",
+    "route": "WT4 - Leg 16 [DGAA-HKJK]"
+  },
+
+  "KATL-MMMY": {
+    "routeId": "rec2jrOV2Zc5xiPpP",
+    "route": "WT4 - Leg 3 [KATL-MMMY]"
+  },
+  "LFPG-KJFK": {
+    "routeId": "rec3xE0VkGs5eP7XW",
+    "route": "WT4 - Leg 1 [LFPG-KJFK]"
+  },
+  "SKBO-SLLP": {
+    "routeId": "rec5WqfFY6n847JIt",
+    "route": "WT4 - Leg 7 [SKBO-SLLP]"
+  },
+  "GABS-GLRB": {
+    "routeId": "rec5u7FFDyecSA4aK",
+    "route": "WT4 - Leg 14 [GABS-GLRB]"
+  },
+  "FIMP-OMDB": {
+    "routeId": "rec9ApUJ3CSzR1Kiy",
+    "route": "WT4 - Leg 20 [FIMP-OMDB]"
+  },
+  "MSLP-SKBO": {
+    "routeId": "rec9rQvrHC9uhcfOw",
+    "route": "WT4 - Leg 6 [MSLP-SKBO]"
+  },
+  "GOBD-GABS": {
+    "routeId": "recCaAFudiv2xr8b8",
+    "route": "WT4 - Leg 13 [GOBD-GABS]"
+  },
+  "KJFK-KATL": {
+    "routeId": "recIbtYKeD9jeVnUK",
+    "route": "WT4 - Leg 2 [KJFK-KATL]"
+  },
+  "HKJK-FVRG": {
+    "routeId": "recKuum4rTEE6Y8mT",
+    "route": "WT4 - Leg 17 [HKJK-FVRG]"
+  },
+  "SBRF-GVAC": {
+    "routeId": "recNLOsS2pli3Q6BG",
+    "route": "WT4 - Leg 11 [SBRF-GVAC]"
+  },
+  "MMMX-MSLP": {
+    "routeId": "recOfZ19QwFZ5cKQr",
+    "route": "WT4 - Leg 5 [MMMX-MSLP]"
+  },
+  "YBCS-VHHH": {
+    "routeId": "recQWDwc8qjBWLTXM",
+    "route": "WT4 - Leg 30 [YBCS-VHHH]"
+  },
+  "RKSI-RJAA": {
+    "routeId": "recRfmucZ4BFfDo0m",
+    "route": "WT4 - Leg 32 [RKSI-RJAA]"
+  },
+  "VOMM-VTBS": {
+    "routeId": "recXXAUtDimNjKwoy",
+    "route": "WT4 - Leg 24 [VOMM-VTBS]"
+  },
+  "FVRG-FAOR": {
+    "routeId": "recZdoHpwearfMZUI",
+    "route": "WT4 - Leg 18 [FVRG-FAOR]"
+  },
+  "NZAA-YSSY": {
+    "routeId": "recbfnoiObADQBqF5",
+    "route": "WT4 - Leg 28 [NZAA-YSSY]"
+  },
+  "SCEL-SBGR": {
+    "routeId": "recdUd5c6WGUs9XYk",
+    "route": "WT4 - Leg 9 [SCEL-SBGR]"
+  },
+  "GLRB-DGAA": {
+    "routeId": "recdrMAIlujodbEwg",
+    "route": "WT4 - Leg 15 [GLRB-DGAA]"
+  },
+  "NZCH-NZAA": {
+    "routeId": "recehFcS7hF1V6tVs",
+    "route": "WT4 - Leg 27 [NZCH-NZAA]"
+  },
+  "VHHH-RKSI": {
+    "routeId": "recfcJwB42mt80Ae5",
+    "route": "WT4 - Leg 31 [VHHH-RKSI]"
+  },
+  "WSSS-NZCH": {
+    "routeId": "recjT1dESlMy7Dr6M",
+    "route": "WT4 - Leg 26 [WSSS-NZCH]"
+  },
+  "VCBI-VOMM": {
+    "routeId": "reckExkq8TLeDX8rf",
+    "route": "WT4 - Leg 23 [VCBI-VOMM]"
+  },
+  "PHNL-KLAX": {
+    "routeId": "recmZaiWYhmvN4ONZ",
+    "route": "WT4 - Leg 34 [PHNL-KLAX]"
+  },
+  "RJAA-PHNL": {
+    "routeId": "recpgfX4WSWvhrjJU",
+    "route": "WT4 - Leg 33 [RJAA-PHNL]"
+  },
+  "KLAX-EHAM": {
+    "routeId": "recqPJDT8LE9FVLQF",
+    "route": "WT4 - Leg 35 [KLAX-EHAM]"
+  },
+  "OPKC-VCBI": {
+    "routeId": "recrPCPN8w7pCVbFp",
+    "route": "WT4 - Leg 22 [OPKC-VCBI]"
+  },
+  "YSSY-YBCS": {
+    "routeId": "recrXXU9UnbpXo15P",
+    "route": "WT4 - Leg 29 [YSSY-YBCS]"
+  },
+  "GVAC-GOBD": {
+    "routeId": "recu9hYwF2UfhawWn",
+    "route": "WT4 - Leg 12 [GVAC-GOBD]"
+  },
+  "FAOR-FIMP": {
+    "routeId": "recuzQmIUr52pgGXv",
+    "route": "WT4 - Leg 19 [FAOR-FIMP]"
+  },
+  "VTBS-WSSS": {
+    "routeId": "recv6xDQp83sfJ1N2",
+    "route": "WT4 - Leg 25 [VTBS-WSSS]"
+  },
+  "MMMY-MMMX": {
+    "routeId": "recvITpeXLswvFNaz",
+    "route": "WT4 - Leg 4 [MMMY-MMMX]"
+  },
+  "OMDB-OPKC": {
+    "routeId": "recvJAxa4k3H8Tkh5",
+    "route": "WT4 - Leg 21 [OMDB-OPKC]"
+  },
+  "SBGR-SBRF": {
+    "routeId": "recwGx4ENYIGDJPhz",
+    "route": "WT4 - Leg 10 [SBGR-SBRF]"
+  }
+}

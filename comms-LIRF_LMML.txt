@@ -1,0 +1,83 @@
+Message 1: 
+
+=========================================================================
+
+```fix
+IFATC's Malta Takeover
+```
+:flag_it: **LIRF** - **LMML** :flag_mt: 
+```md
+#Flight Details: 
+- Aircraft: Alitalia A321 // Generic A320 // Generic A319 
+- Departure Time: 1700Z
+- Flight Time: 1:00
+```
+```ini
+[In - Flight Details]
+```
+```html
+<Fuel> : 6500 kgs (A321) // 6000kgs (A320) // 5500kgs (A319)
+<PAX>  : 119
+<Cargo>:  6000 kgs
+```
+```ini
+[Climb Details]
+``````html
+<Climb VS>: +2400 // +2200 // +2000
+<Climb Speeds>: 240 // 280 // M.78
+<Flight Level>: FL370
+<Descent VS>: Refer to VNAV
+<Descent Speeds>: M0.78 // 280 // 240
+```
+
+```css
+[NOTAMS and Logging Instructors]
+Copy FPL from Alitalia 012AK
+Flight Mode: Event
+Route: Event | Non-AFKLM Event
+Flight Time: [1:00 * 2 bonus]
+Pilot Remarks: [LIRF-LMML | 2x Added!]
+Flight Radar link: https://www.flightradar24.com/data/flights/az886
+```
+
+Gates:
+:negative_squared_cross_mark: T3 Gate 701 - 1700Z - AZVA
+:negative_squared_cross_mark: T3 Gate 706 - 1700Z - AZVA
+:negative_squared_cross_mark: T3 Gate 702 - 1702Z - AZVA
+:negative_squared_cross_mark: T3 Gate 707 - 1702Z - AZVA
+:negative_squared_cross_mark: T3 Gate 703 - 1704Z - AZVA
+:white_check_mark:  T3 Gate 708 - 1704Z - @Sanket (TheExperiment)#9581 
+:negative_squared_cross_mark: T3 Gate 601 - 1706Z - @jpc#0999 
+:negative_squared_cross_mark: T3 Gate 704 - 1706Z - @Will (Cloud-Surfer)#9292 
+:negative_squared_cross_mark: T3 Gate 709 - 1706Z - @unde#4505 
+:negative_squared_cross_mark: T3 Gate 602 - 1708Z - @Russian_Dream_Pilot#4665 
+:negative_squared_cross_mark: T3 Gate 607 - 1708Z - @manav#0001 
+:negative_squared_cross_mark: T3 Gate 705 - 1708Z - @Gava#0001 
+:negative_squared_cross_mark: T3 Gate 603 - 1710Z - @AXLYCL#0529 
+:negative_squared_cross_mark: T3 Gate 608 - 1710Z - @Rohann#1911 
+:negative_squared_cross_mark: T3 Gate 604 - 1712Z - @Susheel Krishna#3690 
+:negative_squared_cross_mark: T3 Gate 609 - 1712Z - @Kevin JK#9588 
+:negative_squared_cross_mark: T3 Gate 605 - 1714Z - @saam_312#3920 
+:negative_squared_cross_mark: T3 Gate 610 - 1714Z - @Arish#9432 
+:negative_squared_cross_mark: T3 Gate 606 - 1716Z - @BillDeng#1572 
+:negative_squared_cross_mark: T3 Gate 611 - 1716Z - @Rastamouse#7299 
+
+***Overflow Gates***
+:negative_squared_cross_mark: T3 Gate 612 - 1718Z - 
+:negative_squared_cross_mark: T3 Gate 613 - 1718Z - 
+:negative_squared_cross_mark: T3 Gate 710 - 1720Z - 
+:negative_squared_cross_mark: T3 Gate 711 - 1720Z -
+
+
+
+
+===================
+Message 2:
+============================
+
+***Arrival and Parking Instructions ***: https://community.infiniteflight.com/t/19jun21-1800z-malta-fly-in-event-lmml/576128/37
+Please go through the above
+instructions extremely thoroughly :point_up_2: 
+Comms in #events-comms 
+
+Confirm with :alitalia:
