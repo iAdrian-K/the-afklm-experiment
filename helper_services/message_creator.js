@@ -260,7 +260,36 @@ exports.createLeaderBoard = async function(leaders){
         inline: false
     })
     var atcResponse = new Discord.MessageEmbed()
-        .setTitle(`Live Leaderboards`)
+        .setTitle(`Live AFKLM World Tour 4 Leaderboards`)
+        .addFields(dataFields)
+        .setAuthor("Sanket")
+    return atcResponse;
+}
+exports.createWTStats = async function(leaders){
+    let podiums  = ['🥇', '🥈', '🥉', '4️⃣', '5️⃣' ];
+    let leaderboardMessage = "";
+    let logCount = 0;
+    let pilotCount = 0;
+    for (var counter = 0; counter < leaders.length ; counter++) 
+    {
+        logCount = logCount + leaders[counter][1];
+        pilotCount = pilotCount + 1;
+        let pilotName = await utils.getPilotName(leaders[counter][0]);
+        leaderboardMessage = leaderboardMessage + ` ${pilotName} (${leaders[counter][1]}) \n`;
+    }
+    let dataFields = [];
+    dataFields.push({
+        name: "Pilots",
+        value: leaderboardMessage,
+        inline: false
+    },{
+        name: "WT4 Stats",
+        value: `Pilots Participated: ${pilotCount} \n Logs Filed: ${logCount}`,
+        inline: false
+    }
+    )
+    var atcResponse = new Discord.MessageEmbed()
+        .setTitle(`Live AFKLM WT4 Statistics`)
         .addFields(dataFields)
         .setAuthor("Sanket")
     return atcResponse;
