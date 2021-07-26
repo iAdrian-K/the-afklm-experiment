@@ -193,10 +193,11 @@ Route:       **${selectedRoute}**
     console.log(pirepObj);
     let y = await airtable_service.filePirep(guildData["afklm_special"]["airtable_api_key"], guildData["afklm_special"]["pirep_airtable_base_id"],
      guildData["afklm_special"]["pirep_table_name"], pirepObj);
-    if (true) {
+     if (y) {
       message.channel.send("Filed successfully");
-    } else {
-      message.channel.send("Sorry it failed!");
-    }
+  } else {
+    message.channel.send(y)
+      message.channel.send("Sorry it failed!")
+  }
   },
 };
