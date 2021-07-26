@@ -46,6 +46,7 @@
     },
     "AirlineMappings": {
         "Generic": "Generic",
+        "VivaAerobus":"VivaAerobus",
         "Other": "Generic",
         "Air France": "Air France",
         "Air France - Brit Air": "Air France",
