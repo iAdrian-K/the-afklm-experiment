@@ -19,7 +19,7 @@ module.exports = {
         let isRotw = false;
         var reactions = ['1⃣', '2⃣', '3⃣', '4⃣', '5⃣', '6⃣', '7⃣', '8⃣', '9⃣', '🔟'];
         if (!("callsign_patterns" in guildData) || !("discord_callsign" in guildData["callsign_patterns"])) {
-            message.channel.send("The callsign patterns of your server seem to be messed up. Contact admin.");
+            message.channel.send("Looks like bot needs an update. *** Please run >update followed by >magic_time and try again");
             return;
         }
         let callsignPattern = await utils.getLiveCallsign(message, guildData["callsign_patterns"]["discord_callsign"], guildData["callsign_patterns"]["if_callsign"]);
