@@ -280,7 +280,7 @@ exports.createWTStats = async function(leaders){
     let dataFields = [];
     dataFields.push({
         name: "Pilots",
-        value: leaderboardMessage,
+        value: "Oops too many pilots to name! Congrats AFKLM!",
         inline: false
     },{
         name: "WT4 Stats",
