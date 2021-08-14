@@ -292,8 +292,9 @@ exports.createWTStats = async function(leaders){
         .setTitle(`Live AFKLM WT4 Statistics`)
         .addFields(dataFields)
         .setAuthor("AFKLM World Tour Team")
-    return atcResponse;
+   
     let stats = [];
     stats.push(atcResponse);
     stats.push(leaderboardMessage);
+    return stats;
 }
