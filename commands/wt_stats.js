@@ -21,6 +21,7 @@ module.exports = {
         })
         let leaders = await utils.getLeaderboards(pilots)
         let replyMessage = await messageCreator.createWTStats(leaders);
-        await message.channel.send(replyMessage);
+        await message.channel.send(replyMessage[0]);
+        await message.channel.send(replyMessage[1]);
     }
 }
