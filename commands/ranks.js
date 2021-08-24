@@ -9,14 +9,14 @@ module.exports = {
     async execute(message) {
       message.channel.send(
           `
-          Cadet (0 hours): Regional Routes
-          Second Officer(15 hours): Short Haul Routes
-          First Officer(45 hours): Medium Haul Routes (Can fly <#780498792763883520>)
-          Sr. First Officer(75 hours): Long Haul Routes
-          Captain(120 hours): Ultra Long Haul Routes
-          Sr. Captain(165 hours): Fifth Freedom / Codeshare routes
-          Commander(225 hours): Cargo/Vintage
-          Rank 8(300 hours): Career Mdoe
+***Cadet (0 hours)***: Regional Routes
+***Second Officer(15 hours)***: Short Haul Routes
+***First Officer(45 hours)***: Medium Haul Routes (Can fly <#780498792763883520>)
+***Sr. First Officer(75 hours)***: Long Haul Routes
+***Captain(120 hours)***: Ultra Long Haul Routes
+***Sr. Captain(165 hours)***: Fifth Freedom / Codeshare routes
+***Commander(225 hours)***: Cargo/Vintage
+***Rank 8(300 hours)***: Career Mdoe
           `
       );
       return;
