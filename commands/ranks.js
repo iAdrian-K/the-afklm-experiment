@@ -16,7 +16,7 @@ module.exports = {
 ***Captain(120 hours)***: Ultra Long Haul Routes
 ***Sr. Captain(165 hours)***: Fifth Freedom / Codeshare routes
 ***Commander(225 hours)***: Cargo/Vintage
-***Rank 8(300 hours)***: Career Mdoe
+***Rank 8(300 hours)***: Career Mode
           `
       );
       return;
