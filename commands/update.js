@@ -20,7 +20,7 @@ module.exports = {
             let lastMessage;
             var configs = [];
             var messageContents = [];
-            await configChannel.messages.fetch({ limit: 3 }).then(messages => {
+            await configChannel.messages.fetch({ limit: 4 }).then(messages => {
                 lastMessage = messages.first().content;
                 messages.forEach(msg => messageContents.push(msg.content))
             }).catch(console.error);
