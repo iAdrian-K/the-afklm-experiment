@@ -248,6 +248,7 @@ exports.createUserMessage = async function (userInfo) {
 exports.createLeaderBoard = async function(leaders){
     let podiums  = ['🥇', '🥈', '🥉', '4️⃣', '5️⃣' ];
     let leaderboardMessage = "";
+    leaders = ["Rohan", "Susheel", "Menno", "CrazyBee", "Thifal"]
     for (var counter = 0; counter < leaders.length  && counter < 5; counter++) 
     {
         let pilotName = await utils.getPilotName(leaders[counter][0])
