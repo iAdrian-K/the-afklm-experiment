@@ -267,7 +267,7 @@ exports.createLeaderBoard = async function(leaders){
 }
 exports.createWTStats = async function(leaders){
     let podiums  = ['🥇', '🥈', '🥉', '4️⃣', '5️⃣' ];
-    let leaderboardMessage = "***Here are the pilots that participated:***\n```";
+    let leaderboardMessage = "***Here are the pilots that participated:***\n```\n";
     let logCount = 0;
     let pilotCount = 0;
     for (var counter = 0; counter < leaders.length ; counter++) 
