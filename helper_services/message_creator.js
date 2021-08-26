@@ -251,7 +251,7 @@ exports.createLeaderBoard = async function(leaders){
     leaders = ["Rohan", "Susheel", "Menno", "CrazyBee", "Thifal"]
     for (var counter = 0; counter < leaders.length  && counter < 5; counter++) 
     {
-        let pilotName = await utils.getPilotName(leaders[counter])
+        let pilotName = leaders[counter]
         leaderboardMessage = leaderboardMessage + `${podiums[counter]} - ${pilotName} (35) \n`;
     }
     let dataFields = [];
