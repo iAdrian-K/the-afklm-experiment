@@ -89,6 +89,24 @@
         "Landing": "140kts",
         "Flaps at descend": "1@240 kts 2@205kts 3@196kts F@186kts",
         "Simbrief Profile": "https://www.simbrief.com/system/dispatch.php?sharefleet=eyJ0cyI6IjE2MjgzMDUzMTM2NDEiLCJiYXNldHlwZSI6IkEzMzMiLCJjb21tZW50cyI6IjNBVUcyMSAtIFNDIiwiaWNhbyI6IkEzMzMiLCJuYW1lIjoiQTMzMC0zMDAiLCJlbmdpbmVzIjoiUlIgVFJFTlQgNzcyQiIsInJlZyI6IkYtTU9OSyIsImZpbiI6IjMzMyIsInNlbGNhbCI6IiIsImhleGNvZGUiOiIiLCJjYXQiOiJIIiwicGVyIjoiRCIsImVxdWlwIjoiU0RFM0dISUoySjNKNU0xUlZXWFlaIiwidHJhbnNwb25kZXIiOiJMQjJEMSIsInBibiI6IkExQjFDMUQxTzFTMiIsImV4dHJhcm1rIjoiIiwibWF4cGF4IjoiNDQwIiwid2d0dW5pdHMiOiJLR1MiLCJvZXciOiIxMjk4MTEiLCJtemZ3IjoiMTgzNzExIiwibXRvdyI6IjI0MjAwMCIsIm1sdyI6IjE4NTAwMCIsIm1heGZ1ZWwiOiIxMDkxODQiLCJwYXh3Z3QiOiI3NyIsImRlZmF1bHRjaSI6IiIsImZ1ZWxmYWN0b3IiOiJNMjAiLCJjcnVpc2VvZmZzZXQiOiJNNTAwMCJ9"
+    },"A330-900": {
+        "Airplane": "A330-900",
+        "Ceiling": "FL420",
+        "MTOW": "251.000kg",
+        "MLW": "191.000kg",
+        "V2": "145kts",
+        "Climb to 5000ft": "175kts / 2000",
+        "Climb to 15000ft": "290kts / 1500",
+        "Climb to 24000ft": "290kts / 1200",
+        "Mach Climb": "M.80 / 1000",
+        "Cruise speed": "Mach 0.81",
+        "Typical Range": "5.850nm",
+        "Descend to 24000ft": "M.81 / 1000",
+        "Descend to 10000ft": "290kts / 3000",
+        "Approach / MCS": "220-200kts / 1500",
+        "Landing": "140kts",
+        "Flaps at descend": "1@240 kts 2@205kts 3@196kts F@186kts",
+        "Simbrief Profile": "https://www.simbrief.com/system/dispatch.php?sharefleet=193712_1631808195984"
     },
     "A340-600": {
         "Airplane": "A340-600",
