@@ -10,7 +10,9 @@ module.exports = {
         let guildId = message.guild.id;
         let guildData = await configUtils.loadGuildConfigs(guildId)
         if(guildData === {}){
-            message.channel.send("The bot has not been configured properly in your server. \n**Contact admin and report this error. If unable to fix, contact sanketpandia on IFC**")
+            message.channel.send("Looks like bot needs an update. *** Please run >update followed by >magic_time and try again***");
+            message.channel.send(">update");
+            message.channel.send(">magic_time");
             return;
         }
         message.channel.send('Fetching your VAs live flights. Give me a second or two.')

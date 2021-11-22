@@ -11,23 +11,33 @@ module.exports = {
         let guildId = message.guild.id;
         let guildData = await configUtils.loadGuildConfigs(guildId)
         if(guildData === {}){
-            message.channel.send("The bot has not been configured properly in your server. \n**Contact admin and report this error. If unable to fix, contact sanketpandia on IFC**")
+            message.channel.send("Looks like bot needs an update. *** Please run >update followed by >magic_time and try again***");
+            message.channel.send(">update");
+            message.channel.send(">magic_time");
             return;
         }
         if(!("pilot_stats_airtable_connection" in guildData)){
-            message.channel.send("I am sorry! Your server's stats airtable connection is not available.\n**Contact your server admin regarding this error**")
+            message.channel.send("Looks like bot needs an update. *** Please run >update followed by >magic_time and try again***");
+            message.channel.send(">update");
+            message.channel.send(">magic_time");
             return;
         }
         if(!("callsign_patterns" in guildData) || !("discord_callsign" in guildData["callsign_patterns"])){
-            message.channel.send("The callsign patterns of your server seem to be messed up. Contact admin.");
+            message.channel.send("Looks like bot needs an update. *** Please run >update followed by >magic_time and try again***");
+            message.channel.send(">update");
+            message.channel.send(">magic_time");
             return;
         }
         if(!("callsign_prefix_airtable" in guildData["callsign_patterns"])){
-            message.channel.send("The **callsign_prefix_airtable** field seems to be missing in your config. Contact admin.");
+            message.channel.send("Looks like bot needs an update. *** Please run >update followed by >magic_time and try again***");
+            message.channel.send(">update");
+            message.channel.send(">magic_time");
             return;
         }
         if(!("callsign_column_name" in guildData["pilot_stats_airtable_connection"])){
-            message.channel.send("Your career mode airtable config is out of order. Keys are missing");
+            message.channel.send("Looks like bot needs an update. *** Please run >update followed by >magic_time and try again***");
+            message.channel.send(">update");
+            message.channel.send(">magic_time");
             return;
         }
         let careerModeData = await careerHelper.fetchCareerModeLogs(guildData["pilot_stats_airtable_connection"]);

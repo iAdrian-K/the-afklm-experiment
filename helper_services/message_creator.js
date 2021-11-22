@@ -2,6 +2,7 @@ const Discord = require('discord.js');
 var utils = require('./utils');
 
 exports.createCmStatsMessage = async function (record, configFields, callsignField) {
+    console.log(record);
     let dataFields = []
     configFields.forEach(element => {
         let data = record[element["airtableColumnName"]];

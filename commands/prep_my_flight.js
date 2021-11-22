@@ -11,7 +11,9 @@ module.exports = {
         let guildId = message.guild.id;
         let guildData = await configUtils.loadGuildConfigs(guildId);
         if (!("callsign_patterns" in guildData) || !("discord_callsign" in guildData["callsign_patterns"])) {
-            message.channel.send("The callsign patterns of your server seem to be messed up. Contact admin.");
+            message.channel.send("Looks like bot needs an update. *** Please run >update followed by >magic_time and try again***");
+            message.channel.send(">update");
+            message.channel.send(">magic_time");
             return;
         }
         let callsignPattern = await utils.getLiveCallsign(message, guildData["callsign_patterns"]["discord_callsign"], guildData["callsign_patterns"]["if_callsign"]);
