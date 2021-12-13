@@ -40,6 +40,7 @@ module.exports = {
             
             configUtils.writeGuildConfigs(guildId, JSON.stringify(guildConfig))
             message.channel.send(`Updated configs from ${configs.length} messages successfully! :cheers:`)
+            message.channel.send('>update_aircraft_database");
             message.channel.send('>magic_time');
 
         } catch (err) {
