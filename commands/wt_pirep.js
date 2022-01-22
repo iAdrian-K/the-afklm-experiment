@@ -91,7 +91,7 @@ module.exports = {
     pirepObj["Aircraft"] = aircraftProfile["aircraft"];
     pirepObj["Airline"] = aircraftProfile["airline"];
     pirepObj["Date Completed"] = today;
-    pirepObj["Flight Mode"] = "World Tour 4";
+    pirepObj["Flight Mode"] = "World Tour 5";
     //Conversation starts here
 
 
@@ -103,7 +103,7 @@ module.exports = {
       let routes_arr = [];
       routes_arr.push(wtRoutes[userFlight["fpl"]]["routeId"]);
       pirepObj["Route"] = routes_arr;
-      selectedFlightMode = "World Tour 4";
+      selectedFlightMode = "World Tour 5";
       multiplier = 1;
     } else {
       message.channel.send(

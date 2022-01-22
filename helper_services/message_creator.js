@@ -262,7 +262,7 @@ exports.createLeaderBoard = async function(leaders){
         inline: false
     })
     var atcResponse = new Discord.MessageEmbed()
-        .setTitle(`Live AFKLM World Tour 4 Leaderboards`)
+        .setTitle(`Live AFKLM World Tour 5 Leaderboards`)
         .addFields(dataFields)
         .setAuthor("AFKLM World Tour Team")
     return atcResponse;

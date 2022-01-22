@@ -7,7 +7,7 @@ exports.fetchWorldTourLogs = async function (airtableConfigs) {
   );
   await base("PIREP Center")
     .select({
-      filterByFormula: "({Flight Mode}='World Tour 4')",
+      filterByFormula: "({Flight Mode}='World Tour 5')",
     })
     .all()
     .then((data) => {
