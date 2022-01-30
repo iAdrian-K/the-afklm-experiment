@@ -23,7 +23,7 @@ exports.createLeaderBoard = async function (leaders) {
   return leaderboard;
 };
 
-exports.invalidLegMessage = async function () {
+exports.invalidLegMessage = function () {
   let dataFields = [
     {
       name: "Total Legs",
@@ -32,16 +32,27 @@ exports.invalidLegMessage = async function () {
     },
     {
       name: "Remarks",
-      value: "Add 'dm' at the end of the message to receive flight parameters in a DM which can be directly copied",
+      value:
+        "Add 'dm' at the end of the message to receive flight parameters in a DM which can be directly copied",
       inline: true,
     },
     {
-      name: "Command Format",
+      name: "Command Format with details",
       value: ">wt 5 dm",
+      inline: false,
+    },
+    {
+      name: "Command Format without details",
+      value: ">wt 5",
       inline: false,
     },
   ];
 
-  let retMessage =  new Discord.MessageEmbed().setTitle(`Invalid command`).addFields(dataFields).setAuthor("AFKLM World Tour Team").setColor("#FF0000");
+  let retMessage = new Discord.MessageEmbed()
+    .setTitle(`Invalid command`)
+    .addFields(dataFields)
+    .setAuthor("AFKLM World Tour Team")
+    .setColor("#FF0000")
+    .setImage("https://dl.airtable.com/.attachmentThumbnails/ed78ac885961f1528b1a6faea737de7d/492ebd90");
   return retMessage;
 };
