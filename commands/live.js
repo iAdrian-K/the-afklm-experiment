@@ -12,7 +12,6 @@ module.exports = {
         if(guildData === {}){
             message.channel.send("Looks like bot needs an update. *** Please run >update followed by >magic_time and try again***");
             message.channel.send(">update");
-            message.channel.send(">magic_time");
             return;
         }
         message.channel.send('Fetching your VAs live flights. Give me a second or two.')

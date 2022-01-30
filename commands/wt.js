@@ -27,7 +27,6 @@ module.exports = {
     if (!("callsign_patterns" in guildData) || !("discord_callsign" in guildData["callsign_patterns"])) {
         message.channel.send("Looks like bot needs an update. *** Please run >update followed by >magic_time and try again***");
         message.channel.send(">update");
-        message.channel.send(">magic_time");
         
         return;
     }

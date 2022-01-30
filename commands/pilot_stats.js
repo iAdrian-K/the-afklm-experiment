@@ -13,31 +13,26 @@ module.exports = {
         if(guildData === {}){
             message.channel.send("Looks like bot needs an update. *** Please run >update followed by >magic_time and try again***");
             message.channel.send(">update");
-            message.channel.send(">magic_time");
             return;
         }
         if(!("pilot_stats_airtable_connection" in guildData)){
             message.channel.send("Looks like bot needs an update. *** Please run >update followed by >magic_time and try again***");
             message.channel.send(">update");
-            message.channel.send(">magic_time");
             return;
         }
         if(!("callsign_patterns" in guildData) || !("discord_callsign" in guildData["callsign_patterns"])){
             message.channel.send("Looks like bot needs an update. *** Please run >update followed by >magic_time and try again***");
             message.channel.send(">update");
-            message.channel.send(">magic_time");
             return;
         }
         if(!("callsign_prefix_airtable" in guildData["callsign_patterns"])){
             message.channel.send("Looks like bot needs an update. *** Please run >update followed by >magic_time and try again***");
             message.channel.send(">update");
-            message.channel.send(">magic_time");
             return;
         }
         if(!("callsign_column_name" in guildData["pilot_stats_airtable_connection"])){
             message.channel.send("Looks like bot needs an update. *** Please run >update followed by >magic_time and try again***");
             message.channel.send(">update");
-            message.channel.send(">magic_time");
             return;
         }
         let careerModeData = await careerHelper.fetchCareerModeLogs(guildData["pilot_stats_airtable_connection"]);
