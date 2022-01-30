@@ -30,7 +30,7 @@ exports.fetchLeaderboard = async function (airtableConfigs) {
     for(let i = 0; i<leaders.length ; i++){{
         await base('All Pilots').find(leaders[i])
         .then(data => {
-            leaderNames.push(data.fields.Name);
+            leaderNames.push(data.fields.Callsign +' - ' + data.fields['IFC Name']);
         })
         .catch(err => console.log(err));
     }}
