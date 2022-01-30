@@ -27,7 +27,7 @@ exports.invalidLegMessage = function () {
   let dataFields = [
     {
       name: "Total Legs",
-      value: "35",
+      value: "36",
       inline: false,
     },
     {

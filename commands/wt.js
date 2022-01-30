@@ -11,7 +11,7 @@ module.exports = {
     let dmFlag =
       splitMessage.length > 2 && splitMessage[2].toUpperCase() === "DM";
     try {
-      if ((parseInt(splitMessage[1]) > 35) || splitMessage.length < 2) {
+      if ((parseInt(splitMessage[1]) > 36) || splitMessage.length < 2) {
         let returnMessage = messageCreator.invalidLegMessage();
         await message.channel.send(returnMessage);
         return;
