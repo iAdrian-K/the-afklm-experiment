@@ -61,6 +61,7 @@ exports.invalidLegMessage = function () {
 
 exports.createLegDetails = function (legDetails, dmFlag) {
   const returnMessages = [];
+  const colors = ["#0000FF", "#008000", "#800080", "#FF7F50", "#fcba03", "#208784", "#7a1157"];
   let time_left_str = Math.floor(legDetails.ft / 3600).toString() + ":";
   time_left_str +=
     Math.floor((legDetails.ft % 3600) / 60).toString().length === 1
@@ -114,7 +115,7 @@ exports.createLegDetails = function (legDetails, dmFlag) {
       .setTitle(`Leg ${legDetails.leg}`)
       .addFields(dataFieldsForMainThread)
       .setAuthor("AFKLM World Tour Team")
-      .setColor("#FF0000")
+      .setColor(colors[Math.random(colors.length - 1)])
       .setImage(legDetails.hero)
       .setURL(legDetails.url)
   );
