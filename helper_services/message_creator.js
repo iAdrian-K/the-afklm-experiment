@@ -291,7 +291,7 @@ exports.createWTStats = async function(leaders){
     }
     )
     var atcResponse = new Discord.MessageEmbed()
-        .setTitle(`Live AFKLM WT4 Statistics`)
+        .setTitle(`Live AFKLM WT5 Statistics`)
         .addFields(dataFields)
         .setAuthor("AFKLM World Tour Team")
    
