@@ -285,7 +285,7 @@ exports.createWTStats = async function(leaders){
         value: "Check the list below!",
         inline: false
     },{
-        name: "WT4 Stats",
+        name: "WT5 Stats",
         value: `Pilots Participated: ${pilotCount} \n Logs Filed: ${logCount}`,
         inline: false
     }
