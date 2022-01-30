@@ -10,7 +10,6 @@ module.exports = {
         let guildId = message.guild.id;
         let guildData = await configUtils.loadGuildConfigs(guildId)
         let logs = await airtableHelper.fetchWorldTourLogs(guildData.afklm_special)
-
         let pilots = {};
         logs.forEach(log => {
             if(pilots.hasOwnProperty(log.callsignId)){
@@ -19,7 +18,9 @@ module.exports = {
                 pilots[log.callsignId] = [log.routeId]
             }
         })
-        let leaders = await utils.getLeaderboards(pilots)
+        let leaders = await utils.getLeaderboards(pilots);
+        // console.log(leaders);
+
         let replyMessage = await messageCreator.createWTStats(leaders);
         await message.channel.send(replyMessage[0]);
         await message.channel.send(replyMessage[1]);

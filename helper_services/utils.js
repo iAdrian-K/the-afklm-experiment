@@ -349,7 +349,7 @@ exports.getPilotName = async function(pilotId){
     let pilotName = "";
     pilots.forEach(pilot => {
         if (pilot.pilotId === pilotId){
-            pilotName = pilot.name
+            pilotName = pilot.callsign + ' - ' + pilot.ifc_name
         } 
     });
     return pilotName;
