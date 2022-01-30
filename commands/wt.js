@@ -11,7 +11,7 @@ module.exports = {
     let dmFlag =
       splitMessage.length > 2 && splitMessage[2].toUpperCase() === "DM";
     try {
-      if (parseInt(splitMessage[1]) > 35) {
+      if ((parseInt(splitMessage[1]) > 35) || splitMessage.length < 2) {
         let returnMessage = messageCreator.invalidLegMessage();
         await message.channel.send(returnMessage);
         return;
@@ -24,6 +24,13 @@ module.exports = {
     }
     let guildId = message.guild.id;
     let guildData = await configUtils.loadGuildConfigs(guildId);
+    if (!("callsign_patterns" in guildData) || !("discord_callsign" in guildData["callsign_patterns"])) {
+        message.channel.send("Looks like bot needs an update. *** Please run >update followed by >magic_time and try again***");
+        message.channel.send(">update");
+        message.channel.send(">magic_time");
+        
+        return;
+    }
     const legDetails = await wtHelper.fetchLeg(guildData.afklm_special, parseInt(splitMessage[1]));
     const returnMessages = messageCreator.createLegDetails(legDetails, dmFlag);
     if (dmFlag) {
