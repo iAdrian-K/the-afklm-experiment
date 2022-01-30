@@ -96,21 +96,7 @@ exports.createLegDetails = function (legDetails, dmFlag) {
       inline: false,
     }
   ];
-  if(dmFlag){
-      dataFieldsForMainThread.push(
-        {
-            name: "Note",
-            value: "I have DMed you the details and procedures for the leg",
-            inline: false,
-          }
-      )
-  }else{ dataFieldsForMainThread.push(
-    {
-        name: "Note",
-        value: `Use '>wt ${legDetails.leg} dm' command to recieve procedures in PM`,
-        inline: false,
-      }
-  )}
+  
   returnMessages.push(
     new Discord.MessageEmbed()
       .setTitle(`Leg ${legDetails.leg}`)
