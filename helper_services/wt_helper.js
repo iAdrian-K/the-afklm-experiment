@@ -4,10 +4,6 @@ const Airtable = require("airtable");
 exports.fetchLeaderboard = async function (airtableConfigs) {
   const Airtable = require("airtable");
 
-
-  // Initialising the basic config for the update
-  const initials = "WT5";
-
   const airtableApiKey = airtableConfigs.airtable_api_key;
   const airtableBaseId = "appQdvvPfICT94WaD";
   const airtableTableName = "PIREP Center";
@@ -42,4 +38,40 @@ exports.fetchLeaderboard = async function (airtableConfigs) {
 };
 
 // Add code for fetching the legs of the airtable
-exports.fetchLeg = async function (airtableConfigs, legNumber) {};
+exports.fetchLeg = async function (airtableConfigs, legNumber) {
+
+  const airtableApiKey = airtableConfigs.airtable_api_key;
+  const airtableBaseId = "appZylG0VHzYjDNaZ";
+  const airtableTableName = "Fifth World Tour";
+
+  // Initialise Airtable Connection
+  var base = new Airtable({ apiKey: airtableApiKey }).base(airtableBaseId);
+
+  let legDetails = {};
+  await base(airtableTableName)
+    .select({
+      view: "WT5 Route Table",
+      maxRecords: 1,
+      filterByFormula: `AND({Leg} = '${legNumber}')`
+    })
+    .all()
+    .then(data => {
+        legDetails = {
+            route: data[0].fields.Route,
+            leg: data[0].fields.Leg,
+            aircrafts: data[0].fields.Aircraft.join(", "),
+            livery: data[0].fields.Livery,
+            fpl: data[0].fields['Flight Plan:'],
+            hero: data[0].fields.Hero[0].url,
+            sid: data[0].fields.SID,
+            star:data[0].fields.STAR,
+            cruise: data[0].fields['Cruise Speed'],
+            depTerminal: data[0].fields['Dep. Terminal'],
+            arrTerminal: data[0].fields['Arr. Terminal'],
+            ft: data[0].fields.Duration,
+            url: 'https://airtable.com/shrcTKWwUx7GnJCys'
+        }
+    })
+    .catch(err => console.log(err));
+    return legDetails;
+};

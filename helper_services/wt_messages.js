@@ -53,6 +53,74 @@ exports.invalidLegMessage = function () {
     .addFields(dataFields)
     .setAuthor("AFKLM World Tour Team")
     .setColor("#FF0000")
-    .setImage("https://dl.airtable.com/.attachmentThumbnails/ed78ac885961f1528b1a6faea737de7d/492ebd90");
+    .setImage(
+      "https://dl.airtable.com/.attachmentThumbnails/ed78ac885961f1528b1a6faea737de7d/492ebd90"
+    );
   return retMessage;
+};
+
+exports.createLegDetails = function (legDetails, dmFlag) {
+  const returnMessages = [];
+  let time_left_str = Math.floor(legDetails.ft / 3600).toString() + ":";
+  time_left_str +=
+    Math.floor((legDetails.ft % 3600) / 60).toString().length === 1
+      ? "0" + Math.floor((legDetails.ft % 3600) / 60).toString()
+      : Math.floor((legDetails.ft % 3600) / 60).toString();
+
+  let dataFieldsForMainThread = [
+    {
+      name: "Route",
+      value: legDetails.route,
+      inline: false,
+    },
+    {
+      name: "Aircraft(s)",
+      value: legDetails.aircrafts,
+      inline: true,
+    },
+    {
+      name: "Livery",
+      value: legDetails.livery,
+      inline: true,
+    },
+    {
+      name: "Flight Time",
+      value: time_left_str,
+      inline: false,
+    },
+    {
+      name: "Airtable Link",
+      value: legDetails.url,
+      inline: false,
+    }
+  ];
+  if(dmFlag){
+      dataFieldsForMainThread.push(
+        {
+            name: "Note",
+            value: "I have DMed you the details and procedures for the leg",
+            inline: false,
+          }
+      )
+  }else{ dataFieldsForMainThread.push(
+    {
+        name: "Note",
+        value: `Use '>wt ${legDetails.leg} dm' command to recieve procedures in PM`,
+        inline: false,
+      }
+  )}
+  returnMessages.push(
+    new Discord.MessageEmbed()
+      .setTitle(`Leg ${legDetails.leg}`)
+      .addFields(dataFieldsForMainThread)
+      .setAuthor("AFKLM World Tour Team")
+      .setColor("#FF0000")
+      .setImage(legDetails.hero)
+      .setURL(legDetails.url)
+  );
+  returnMessages.push(
+    `**SID**: ${legDetails.sid}\n**STAR**: ${legDetails.star}\n**Dep. Terminal**: ${legDetails.depTerminal}\n**Arr. Terminal**: ${legDetails.arrTerminal}\n**Cruise Speed**: ${legDetails.cruise}\n**Copy message below for FPL**`,
+    legDetails.fpl
+  );
+  return returnMessages;
 };
