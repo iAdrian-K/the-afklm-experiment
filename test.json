@@ -1,0 +1,23 @@
+{
+
+    "Leg": 1,
+    "Route": "EHAM-LEBL",
+    "Aircraft": ["737-700"],
+    "Livery": "KLM",
+    "NM": 759,
+    "Country": "Spain",
+    "Continent": "Europe",
+    "Flight Plan:": "EHAM NIK DENOX CIV 5031N/347E MEDIL PITHI LESDO KOVIN DUCRA RESMI DEKOD DISAK DIRMO VALKU ATSUP MINSO DEGOL PPG LEBL",
+    "Thumbnail": "https://dl.airtable.com/.attachments/88a5a3b2a879a9f911c1e05fc2e98620/ae1cc147/WT5-RouteBanners-2-Barcelona.png",
+    "Cruise Speed": "M0.78",
+    "SID": "KUD2SY -> WOODY -> Runway 24\nKUDA1E -> Runway 18L\nKUDA1N -> Runway 09\nKUDA1P -> Runway 27\nKUDA1R -> Runway 06\nKUDA1V -> Runway 36L\nKUDA2S -> Runway 24...",
+    "STAR": "ALBE1W -> Runway 25L, 25R\nALBE1X -> Runway 07L, 07R\n",
+    "Destination City": "Barcelona",
+    "Dep. Terminal": "Pier C / Pier D ",
+    "Arr. Terminal": "Terminal 1",
+    "Duration": 6600,
+    "Link to FPLTOIF": "https://fpltoif.com/simbrief_plans?ofp_id=1641486091_ACD00D253F&n=no",
+    "Flight Radar Link": "https://www.flightradar24.com/data/flights/kl1673"
+    
+  
+}
