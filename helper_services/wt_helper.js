@@ -17,7 +17,8 @@ exports.fetchLeaderboard = async function (airtableConfigs) {
   await base(airtableTableName)
     .select({
       view: "WT5 - Bot - DO NOT ALTER",
-      maxRecords: 5
+      maxRecords: 5,
+      sort:[{field: "Route", direction: "desc"}, {field: "Log Date", direction: "asc"}]
     })
     .all()
     .then((data) => {

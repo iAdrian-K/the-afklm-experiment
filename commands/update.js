@@ -40,8 +40,8 @@ module.exports = {
             
             configUtils.writeGuildConfigs(guildId, JSON.stringify(guildConfig))
             message.channel.send(`Updated configs from ${configs.length} messages successfully! :cheers:`)
-            message.channel.send('>update_aircraft_database');
-            message.channel.send('>magic_time');
+            // message.channel.send('>update_aircraft_database');
+            // message.channel.send('>magic_time');
 
         } catch (err) {
             message.channel.send("Updating configs failed.\nMake sure #the-aircraft-experiment is clear of other messages and only has the config messages and you are using this command in a different channel.\n Make sure to read the docs properly and use the proper pattern.\nIf it fails contact sanketpandia on IFC.")
