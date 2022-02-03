@@ -5,6 +5,7 @@ The AFKLM Experiment
 ## pilot_stats: 
 - Pilot needs to have the callsign in their discord display name and pattern should be conigured in the bot configs
 - Usage syntax: `>pilot_stats`
+Testing
 
 ## cm_stats:
 - Usage syntax: `>cm_stats`
