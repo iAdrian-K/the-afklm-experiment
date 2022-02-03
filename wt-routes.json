@@ -25,7 +25,7 @@
   },
   "FVRG-FAOR": {
     "routeId": "rec5BmeRY5uv8atw3",
-    "route": "WT5 - Leg  7 [FVRG-FAOR]"
+    "route": "WT5 - Leg 7 [FVRG-FAOR]"
   },
   "FAOR-FNLU": {
     "routeId": "rec8vzPwSYTsfunOk",
@@ -61,7 +61,7 @@
   },
   "SKBO-MPTO": {
     "routeId": "recN9ufPo9jh5Y1yW",
-    "route": "WT5 - Leg  16 [SKBO-MPTO]"
+    "route": "WT5 - Leg 16 [SKBO-MPTO]"
   },
   "MPTO-MMMX": {
     "routeId": "recHgD1Zvlgw4m3h0",
@@ -73,7 +73,7 @@
   },
   "MUHA-KMIA": {
     "routeId": "receSnfRRtJEyiNUx",
-    "route": "WT5 - Leg  19 [MUHA-KMIA]"
+    "route": "WT5 - Leg 19 [MUHA-KMIA]"
   },
   "KMIA-KATL": {
     "routeId": "recZKLGpAuEtwdrEP",
@@ -97,7 +97,7 @@
   },
   "NTAA-NWWW": {
     "routeId": "recAUyO3euKqWY7gU",
-    "route": "WT5 - Leg  25 [NTAA-NWWW]"
+    "route": "WT5 - Leg 25 [NTAA-NWWW]"
   },
   "NWWW-YSSY": {
     "routeId": "recIUeSYYznfcEvOB",
@@ -113,7 +113,7 @@
   },
   "WPDL-WADD": {
     "routeId": "recPQUQvY5j3fVIXf",
-    "route": "WT5 - Leg  29 [WPDL-WADD]"
+    "route": "WT5 - Leg 29 [WPDL-WADD]"
   },
   "WADD-WIII": {
     "routeId": "recBnXmIv4EfyvxHc",
@@ -121,11 +121,11 @@
   },
   "WIII-WMKK": {
     "routeId": "rec1p6Karu88di8NB",
-    "route": "WT5 - Leg  31 [WIII-WMKK]"
+    "route": "WT5 - Leg 31 [WIII-WMKK]"
   },
   "WMKK-VTBS": {
     "routeId": "recxoz6KAP1QKYsjb",
-    "route": "WT5 - Leg  32 [WMKK-VTBS]"
+    "route": "WT5 - Leg 32 [WMKK-VTBS]"
   },
   "VTBS-VOMM": {
     "routeId": "recChULV4grzGftMI",
@@ -139,8 +139,8 @@
     "routeId": "recW59dw7EaOeT3Dz",
     "route": "WT5 - Leg 35  [FMEE-LFML]"
   },
-  "LFML-EHAM": {
+  "LFML-LFPG": {
     "routeId": "recXTr8CbA4Y9ZCj4",
-    "route": "WT5 - Leg  36 [LFML-EHAM]"
+    "route": "WT5 - Leg 36 [LFML-LFPG]"
   }
 }
